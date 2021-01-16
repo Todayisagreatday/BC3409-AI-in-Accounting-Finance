@@ -1,0 +1,127 @@
+2020-09-30 18:06:45,266 INFO    MainThread:10844 [wandb_init.py:_log_setup():291] Logging user logs to wandb\run-20200930_180645-yd2wmm38\logs\debug.log
+2020-09-30 18:06:45,267 INFO    MainThread:10844 [wandb_init.py:_log_setup():292] Logging internal logs to wandb\run-20200930_180645-yd2wmm38\logs\debug-internal.log
+2020-09-30 18:06:45,267 INFO    MainThread:10844 [wandb_setup.py:_flush():68] setting env: {'entity': 'todayisagreatday', 'project': 'delim-Desktop_NN_Assignment', 'sweep_id': '0cg5rscr', 'run_id': 'yd2wmm38', 'config_paths': 'wandb\\sweep-0cg5rscr\\config-yd2wmm38.yaml'}
+2020-09-30 18:06:45,267 INFO    MainThread:10844 [wandb_setup.py:_flush():68] setting user settings: {}
+2020-09-30 18:06:45,267 INFO    MainThread:10844 [wandb_setup.py:_flush():68] multiprocessing start_methods=spawn
+2020-09-30 18:06:45,291 INFO    MainThread:10844 [wandb_settings.py:_console():398] Set PYTHONLEGACYWINDOWSSTDIO environment variable to enable proper console logging on Windows. Falling back to wrapping stdout/err.
+2020-09-30 18:06:45,295 INFO    MainThread:10844 [wandb_settings.py:_console():407] Tensorflow detected. Stream redirection is not supported on Windows when tensorflow is imported. Falling back to wrapping stdout/err.
+2020-09-30 18:06:51,112 INFO    MainThread:10844 [wandb_run.py:_console_start():1189] atexit reg
+2020-09-30 18:06:51,162 INFO    MainThread:10844 [wandb_settings.py:_console():398] Set PYTHONLEGACYWINDOWSSTDIO environment variable to enable proper console logging on Windows. Falling back to wrapping stdout/err.
+2020-09-30 18:06:51,166 INFO    MainThread:10844 [wandb_settings.py:_console():407] Tensorflow detected. Stream redirection is not supported on Windows when tensorflow is imported. Falling back to wrapping stdout/err.
+2020-09-30 18:06:51,167 INFO    MainThread:10844 [wandb_run.py:_redirect():1061] redirect: SettingsConsole.WRAP
+2020-09-30 18:06:51,167 INFO    MainThread:10844 [wandb_run.py:_redirect():1092] Wrapping output streams.
+2020-09-30 18:06:51,167 INFO    MainThread:10844 [wandb_run.py:_redirect():1108] Redirects installed.
+2020-09-30 18:07:44,252 INFO    MainThread:10844 [wandb_run.py:_atexit_cleanup():1164] got exitcode: 1
+2020-09-30 18:07:44,252 INFO    MainThread:10844 [wandb_run.py:_restore():1136] restore
+2020-09-30 18:07:44,287 INFO    MainThread:10844 [wandb_run.py:_wait_for_finish():1272] got exit ret: uuid: "15bc777cb4184a78b24237963256a6e9"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+      media_count: 1
+      other_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 23077
+      total_bytes: 23077
+    }
+  }
+}
+
+2020-09-30 18:07:46,292 INFO    MainThread:10844 [wandb_run.py:_wait_for_finish():1272] got exit ret: uuid: "8d562bca25ff4673bb1d8d2a299dedfa"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+      other_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 26124
+      total_bytes: 76831
+    }
+  }
+}
+
+2020-09-30 18:07:48,298 INFO    MainThread:10844 [wandb_run.py:_wait_for_finish():1272] got exit ret: uuid: "e4e2cdee2ba546488cd6c5deb33b60fa"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+      other_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 26124
+      total_bytes: 76831
+    }
+  }
+}
+
+2020-09-30 18:07:50,305 INFO    MainThread:10844 [wandb_run.py:_wait_for_finish():1272] got exit ret: uuid: "e9c7601ce24e4c7a80190accd4df4583"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+      other_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 26124
+      total_bytes: 76831
+    }
+  }
+}
+
+2020-09-30 18:07:52,315 INFO    MainThread:10844 [wandb_run.py:_wait_for_finish():1272] got exit ret: uuid: "9356a763ae374accbe5d28cd04e5652f"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+      other_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 26124
+      total_bytes: 76831
+    }
+  }
+}
+
+2020-09-30 18:07:54,433 INFO    MainThread:10844 [wandb_run.py:_wait_for_finish():1272] got exit ret: uuid: "dafa5e4098564834b8b426081070a368"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+      other_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 76831
+      total_bytes: 76831
+    }
+  }
+}
+
+2020-09-30 18:07:56,442 INFO    MainThread:10844 [wandb_run.py:_wait_for_finish():1272] got exit ret: uuid: "969c1bcf856a4eee81f1ed1e384e2e7b"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+      other_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 76831
+      total_bytes: 76831
+    }
+  }
+}
+
+2020-09-30 18:07:57,546 INFO    MainThread:10844 [wandb_run.py:_show_summary():1400] rendering summary
+2020-09-30 18:07:57,589 INFO    MainThread:10844 [wandb_run.py:_show_history():1438] rendering history
+2020-09-30 18:07:57,625 INFO    MainThread:10844 [wandb_run.py:_show_files():1466] logging synced files
+2020-09-30 18:07:57,697 INFO    MainThread:10844 [internal.py:handle_exit():137] Internal process exited

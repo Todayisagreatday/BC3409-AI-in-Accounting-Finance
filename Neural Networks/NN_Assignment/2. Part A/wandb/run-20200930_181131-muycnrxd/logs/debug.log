@@ -1,0 +1,67 @@
+2020-09-30 18:11:31,743 INFO    MainThread:1420 [wandb_init.py:_log_setup():291] Logging user logs to wandb\run-20200930_181131-muycnrxd\logs\debug.log
+2020-09-30 18:11:31,745 INFO    MainThread:1420 [wandb_init.py:_log_setup():292] Logging internal logs to wandb\run-20200930_181131-muycnrxd\logs\debug-internal.log
+2020-09-30 18:11:31,746 INFO    MainThread:1420 [wandb_setup.py:_flush():68] setting env: {'entity': 'todayisagreatday', 'project': 'delim-Desktop_NN_Assignment', 'sweep_id': '0cg5rscr', 'run_id': 'muycnrxd', 'config_paths': 'wandb\\sweep-0cg5rscr\\config-muycnrxd.yaml'}
+2020-09-30 18:11:31,747 INFO    MainThread:1420 [wandb_setup.py:_flush():68] setting user settings: {}
+2020-09-30 18:11:31,747 INFO    MainThread:1420 [wandb_setup.py:_flush():68] multiprocessing start_methods=spawn
+2020-09-30 18:11:31,781 INFO    MainThread:1420 [wandb_settings.py:_console():398] Set PYTHONLEGACYWINDOWSSTDIO environment variable to enable proper console logging on Windows. Falling back to wrapping stdout/err.
+2020-09-30 18:11:31,782 INFO    MainThread:1420 [wandb_settings.py:_console():407] Tensorflow detected. Stream redirection is not supported on Windows when tensorflow is imported. Falling back to wrapping stdout/err.
+2020-09-30 18:11:35,203 INFO    MainThread:1420 [wandb_run.py:_console_start():1189] atexit reg
+2020-09-30 18:11:35,238 INFO    MainThread:1420 [wandb_settings.py:_console():398] Set PYTHONLEGACYWINDOWSSTDIO environment variable to enable proper console logging on Windows. Falling back to wrapping stdout/err.
+2020-09-30 18:11:35,240 INFO    MainThread:1420 [wandb_settings.py:_console():407] Tensorflow detected. Stream redirection is not supported on Windows when tensorflow is imported. Falling back to wrapping stdout/err.
+2020-09-30 18:11:35,242 INFO    MainThread:1420 [wandb_run.py:_redirect():1061] redirect: SettingsConsole.WRAP
+2020-09-30 18:11:35,243 INFO    MainThread:1420 [wandb_run.py:_redirect():1092] Wrapping output streams.
+2020-09-30 18:11:35,243 INFO    MainThread:1420 [wandb_run.py:_redirect():1108] Redirects installed.
+2020-09-30 18:13:21,285 INFO    MainThread:1420 [wandb_run.py:_atexit_cleanup():1164] got exitcode: 1
+2020-09-30 18:13:21,286 INFO    MainThread:1420 [wandb_run.py:_restore():1136] restore
+2020-09-30 18:13:21,321 INFO    MainThread:1420 [wandb_run.py:_wait_for_finish():1272] got exit ret: uuid: "ad8cbe26c86a47969fc43b2833c135bd"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+      media_count: 1
+      other_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 1323
+      total_bytes: 21027
+    }
+  }
+}
+
+2020-09-30 18:13:23,336 INFO    MainThread:1420 [wandb_run.py:_wait_for_finish():1272] got exit ret: uuid: "824e690e367e44f398441ba22d28bd92"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+      other_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 126455
+      total_bytes: 126455
+    }
+  }
+}
+
+2020-09-30 18:13:25,350 INFO    MainThread:1420 [wandb_run.py:_wait_for_finish():1272] got exit ret: uuid: "2183aba924af4675b3f22b16618c4992"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+      other_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 126455
+      total_bytes: 126455
+    }
+  }
+}
+
+2020-09-30 18:13:26,453 INFO    MainThread:1420 [wandb_run.py:_show_summary():1400] rendering summary
+2020-09-30 18:13:26,482 INFO    MainThread:1420 [wandb_run.py:_show_history():1438] rendering history
+2020-09-30 18:13:26,550 INFO    MainThread:1420 [wandb_run.py:_show_files():1466] logging synced files
+2020-09-30 18:13:26,579 INFO    MainThread:1420 [internal.py:handle_exit():137] Internal process exited

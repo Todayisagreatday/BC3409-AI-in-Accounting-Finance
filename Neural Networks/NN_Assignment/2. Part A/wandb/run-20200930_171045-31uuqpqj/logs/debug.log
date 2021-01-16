@@ -1,0 +1,59 @@
+2020-09-30 17:10:45,705 INFO    MainThread:9916 [wandb_init.py:_log_setup():291] Logging user logs to wandb\run-20200930_171045-31uuqpqj\logs\debug.log
+2020-09-30 17:10:45,705 INFO    MainThread:9916 [wandb_init.py:_log_setup():292] Logging internal logs to wandb\run-20200930_171045-31uuqpqj\logs\debug-internal.log
+2020-09-30 17:10:45,706 INFO    MainThread:9916 [wandb_setup.py:_flush():68] setting env: {}
+2020-09-30 17:10:45,706 INFO    MainThread:9916 [wandb_setup.py:_flush():68] setting user settings: {}
+2020-09-30 17:10:45,706 INFO    MainThread:9916 [wandb_setup.py:_flush():68] multiprocessing start_methods=spawn
+2020-09-30 17:10:45,715 INFO    MainThread:9916 [wandb_settings.py:_console():398] Set PYTHONLEGACYWINDOWSSTDIO environment variable to enable proper console logging on Windows. Falling back to wrapping stdout/err.
+2020-09-30 17:10:45,715 INFO    MainThread:9916 [wandb_settings.py:_console():407] Tensorflow detected. Stream redirection is not supported on Windows when tensorflow is imported. Falling back to wrapping stdout/err.
+2020-09-30 17:10:47,997 INFO    MainThread:9916 [wandb_run.py:_console_start():1189] atexit reg
+2020-09-30 17:10:48,005 INFO    MainThread:9916 [wandb_settings.py:_console():398] Set PYTHONLEGACYWINDOWSSTDIO environment variable to enable proper console logging on Windows. Falling back to wrapping stdout/err.
+2020-09-30 17:10:48,006 INFO    MainThread:9916 [wandb_settings.py:_console():407] Tensorflow detected. Stream redirection is not supported on Windows when tensorflow is imported. Falling back to wrapping stdout/err.
+2020-09-30 17:10:48,006 INFO    MainThread:9916 [wandb_run.py:_redirect():1061] redirect: SettingsConsole.WRAP
+2020-09-30 17:10:48,006 INFO    MainThread:9916 [wandb_run.py:_redirect():1092] Wrapping output streams.
+2020-09-30 17:10:48,006 INFO    MainThread:9916 [wandb_run.py:_redirect():1108] Redirects installed.
+2020-09-30 17:11:04,020 INFO    MainThread:9916 [wandb_run.py:_atexit_cleanup():1164] got exitcode: 1
+2020-09-30 17:11:04,020 INFO    MainThread:9916 [wandb_run.py:_restore():1136] restore
+2020-09-30 17:11:04,026 INFO    MainThread:9916 [wandb_run.py:_wait_for_finish():1272] got exit ret: uuid: "88b94a2df74b438a89b5476186d2c8b5"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 649
+      total_bytes: 649
+    }
+  }
+}
+
+2020-09-30 17:11:06,041 INFO    MainThread:9916 [wandb_run.py:_wait_for_finish():1272] got exit ret: uuid: "fbd9e5ffe9b749d2ab1da6d9acb28dbe"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 28827
+      total_bytes: 28827
+    }
+  }
+}
+
+2020-09-30 17:11:08,050 INFO    MainThread:9916 [wandb_run.py:_wait_for_finish():1272] got exit ret: uuid: "89117f7e413044e1802b30bf0323c512"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 28827
+      total_bytes: 28827
+    }
+  }
+}
+
+2020-09-30 17:11:09,160 INFO    MainThread:9916 [wandb_run.py:_show_files():1466] logging synced files
+2020-09-30 17:11:09,166 INFO    MainThread:9916 [internal.py:handle_exit():137] Internal process exited

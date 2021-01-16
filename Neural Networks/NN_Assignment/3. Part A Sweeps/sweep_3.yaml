@@ -1,0 +1,10 @@
+program: classification_3_neuron.py
+project: NN_Part_A
+name: Neuron
+method: grid
+metric: 
+  goal: minimize
+  name: loss
+parameters:
+  hidden_layer_1:
+    values: [5, 10, 15, 20, 25]

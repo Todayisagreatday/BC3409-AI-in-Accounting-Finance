@@ -1,0 +1,10 @@
+program: classification_8_decay.py
+project: NN_Part_A
+name: Decay 4L
+method: grid
+metric: 
+  goal: minimize
+  name: loss
+parameters:
+  decay:
+    values: [0, 1e-3, 1e-9, 1e-12]

@@ -1,0 +1,28 @@
+{
+    "os": "Windows-10-10.0.18362-SP0",
+    "python": "3.7.9",
+    "heartbeatAt": "2020-09-30T10:13:37.121754",
+    "startedAt": "2020-09-30T10:13:34.934256",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--batch_size=32",
+        "--channel_1_neurons=15",
+        "--channel_2_neurons=5",
+        "--epochs=1000",
+        "--lr=0.01"
+    ],
+    "state": "running",
+    "codePath": "Desktop\\NN_Assignment\\wandb_1a.py",
+    "program": "wandb_1a.py",
+    "git": {
+        "remote": null,
+        "commit": null
+    },
+    "email": null,
+    "root": "C:/Users/delim",
+    "host": "bubblegum",
+    "username": "delim",
+    "executable": "c:\\users\\delim\\anaconda3\\envs\\vscode\\python.exe"
+}

@@ -1,0 +1,10 @@
+program: classification_5_lr.py
+project: NN_Part_A
+name: Learning Rate
+method: grid
+metric: 
+  goal: minimize
+  name: loss
+parameters:
+  lr:
+    values: [0.01, 1e-3, 3e-3, 3e-4]

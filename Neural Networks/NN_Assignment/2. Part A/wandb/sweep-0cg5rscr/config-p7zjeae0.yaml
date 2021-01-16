@@ -1,0 +1,12 @@
+wandb_version: 1
+
+batch_size:
+  value: 64
+channel_1_neurons:
+  value: 25
+channel_2_neurons:
+  value: 5
+epochs:
+  value: 500
+lr:
+  value: 0.01
