@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "c:\Users\delim\Desktop\AI in A&F Indiv Assignment\Practical Assessment\Prediction\SVR.py", line 12, in <module>
+    data = pd.read_csv('dataset_1.csv')
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\parsers.py", line 676, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\parsers.py", line 448, in _read
+    parser = TextFileReader(fp_or_buf, **kwds)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\parsers.py", line 880, in __init__
+    self._make_engine(self.engine)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\parsers.py", line 1114, in _make_engine
+    self._engine = CParserWrapper(self.f, **self.options)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\pandas\io\parsers.py", line 1891, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas\_libs\parsers.pyx", line 374, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 674, in pandas._libs.parsers.TextReader._setup_parser_source
+FileNotFoundError: [Errno 2] File dataset_1.csv does not exist: 'dataset_1.csv'

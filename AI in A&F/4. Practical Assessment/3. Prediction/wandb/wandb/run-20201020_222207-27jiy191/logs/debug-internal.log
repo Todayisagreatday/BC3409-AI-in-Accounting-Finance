@@ -1,0 +1,895 @@
+2020-10-20 22:22:09,107 INFO    MainThread:12200 [internal.py:wandb_internal():62] W&B internal server running at pid: 12200
+2020-10-20 22:22:09,109 DEBUG   HandlerThread:12200 [handler.py:handle_request():54] handle_request: check_version
+2020-10-20 22:22:09,110 INFO    WriterThread:12200 [datastore.py:open_for_write():76] open: wandb\run-20201020_222207-27jiy191\run-27jiy191.wandb
+2020-10-20 22:22:09,110 DEBUG   SenderThread:12200 [sender.py:send():88] send: header
+2020-10-20 22:22:09,111 DEBUG   SenderThread:12200 [sender.py:send():88] send: request
+2020-10-20 22:22:09,111 DEBUG   SenderThread:12200 [sender.py:send_request():97] send_request: check_version
+2020-10-20 22:22:09,119 DEBUG   Thread-8  :12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): pypi.org:443
+2020-10-20 22:22:09,284 DEBUG   Thread-8  :12200 [connectionpool.py:_make_request():433] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 50840
+2020-10-20 22:22:09,388 DEBUG   SenderThread:12200 [sender.py:send():88] send: run
+2020-10-20 22:22:09,391 INFO    SenderThread:12200 [sender.py:_maybe_setup_resume():268] checking resume status for None/Airbnb_Project/27jiy191
+2020-10-20 22:22:09,394 DEBUG   SenderThread:12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-20 22:22:09,651 DEBUG   SenderThread:12200 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-20 22:22:09,653 INFO    SenderThread:12200 [sender.py:_maybe_setup_resume():320] configured resuming with: {'step': 228, 'history': 228, 'events': 9, 'output': 453, 'runtime': 56, 'summary': {'val_loss': 'NaN', '_timestamp': 1603203513, 'epoch': 14, 'val_mse': 'NaN', '_step': 226, 'graph': {'path': 'media/graph/g.r.a.p.h_summary_a5539077.graph.json', 'size': 574, '_type': 'graph-file', 'sha256': 'a5539077752eef89e2dcb9c7f80dce93112fac30c2cb8f9c4a032fa8902272da'}, '_runtime': 56, 'mse': 'NaN', 'loss': 'NaN'}, 'config': {'lr': {'desc': None, 'value': 0.0003}, 'decay': {'desc': None, 'value': 0}, '_wandb': {'desc': None, 'value': {'framework': 'keras', 'cli_version': '0.10.7', 'is_jupyter_run': False, 'python_version': '3.8.3', 'is_kaggle_kernel': False}}, 'epochs': {'desc': None, 'value': 200}, 'layers': {'desc': None, 'value': 4}, 'dropout_1': {'desc': None, 'value': 'No'}, 'dropout_2': {'desc': None, 'value': 'No'}, 'batch_size': {'desc': None, 'value': 32}, 'hidden_layer_1': {'desc': None, 'value': 100}, 'hidden_layer_2': {'desc': None, 'value': 100}}}
+2020-10-20 22:22:09,670 DEBUG   SenderThread:12200 [util.py:is_cygwin_git():315] Failed checking if running in CYGWIN due to: FileNotFoundError(2, 'The system cannot find the file specified', None, 2, None)
+2020-10-20 22:22:09,677 DEBUG   SenderThread:12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-20 22:22:09,946 DEBUG   SenderThread:12200 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-20 22:22:09,986 INFO    SenderThread:12200 [dir_watcher.py:__init__():167] watching files in: wandb\run-20201020_222207-27jiy191\files
+2020-10-20 22:22:09,987 INFO    SenderThread:12200 [sender.py:_start_run_threads():466] run started: 27jiy191 with start time 1603203671
+2020-10-20 22:22:10,010 DEBUG   HandlerThread:12200 [handler.py:handle_request():54] handle_request: run_start
+2020-10-20 22:22:10,011 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:10,018 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:10,025 DEBUG   HandlerThread:12200 [cmd.py:execute():718] Popen(['git', 'rev-parse', '--show-toplevel'], cwd=c:\Users\delim, universal_newlines=False, shell=None, istream=None)
+2020-10-20 22:22:10,206 DEBUG   SenderThread:12200 [sender.py:send():88] send: files
+2020-10-20 22:22:10,206 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-metadata.json with policy now
+2020-10-20 22:22:10,206 DEBUG   HandlerThread:12200 [handler.py:handle_request():54] handle_request: status
+2020-10-20 22:22:10,207 DEBUG   SenderThread:12200 [sender.py:send():88] send: request
+2020-10-20 22:22:10,207 DEBUG   SenderThread:12200 [sender.py:send_request():97] send_request: status
+2020-10-20 22:22:10,210 DEBUG   SenderThread:12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-20 22:22:10,225 DEBUG   Thread-17 :12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-20 22:22:10,447 DEBUG   HandlerThread:12200 [handler.py:handle_request():54] handle_request: get_summary
+2020-10-20 22:22:10,461 DEBUG   SenderThread:12200 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-20 22:22:10,463 DEBUG   SenderThread:12200 [sender.py:send():88] send: files
+2020-10-20 22:22:10,463 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file model-best.h5 with policy live
+2020-10-20 22:22:10,492 DEBUG   Thread-17 :12200 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-20 22:22:10,500 DEBUG   Thread-17 :12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-10-20 22:22:10,905 DEBUG   Thread-17 :12200 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/todayisagreatday/Airbnb_Project/27jiy191/wandb-metadata.json?Expires=1603290128&GoogleAccessId=gorilla-cloud-storage%40wandb-production.iam.gserviceaccount.com&Signature=A6PKpYykR3oADnd98vHjMDrmPKTR%2Blxe%2Bk3p%2FT6WcGXqQeScT%2BiK42Y%2Ftn7ZM76csuUCdPknbhcuK4sLsue58Igxi2qKc%2Fcz9aVGN9QMPnl6nEneJH%2B%2FZvmzq7udtPcO8jxzSVYDtNqNcuYBEzaXyoNH%2B1PDWRIrOrSWEW8%2BqEtfARTIQvtzP94MTv%2ByLZ7gX%2FNR0FQERrwRzoY6QpY8fz%2FwFlOxvCwRiEDs%2B%2F5CKUQzAvooD1ZhXGODBcwGp%2FiXNTWC2rohd6GkcmIq7dE%2BbghccWja66v%2FT632EqHiiqzHFc%2FQi6jWC7N7DZjaxRiraSllBNpY879%2FsKMbtDa%2BRA%3D%3D HTTP/1.1" 200 0
+2020-10-20 22:22:10,907 INFO    Thread-17 :12200 [upload_job.py:push():112] Uploaded file C:\Users\delim\AppData\Local\Temp\tmp4quddoynwandb\1i3nvi00-wandb-metadata.json
+2020-10-20 22:22:10,953 DEBUG   SenderThread:12200 [sender.py:send():88] send: files
+2020-10-20 22:22:10,953 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file media\graph\g.r.a.p.h_summary_c49576b7.graph.json with policy now
+2020-10-20 22:22:10,955 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:10,956 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:10,962 DEBUG   Thread-18 :12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-20 22:22:10,992 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_created():215] file/dir created: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:10,993 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_created():215] file/dir created: wandb\run-20201020_222207-27jiy191\files\requirements.txt
+2020-10-20 22:22:10,993 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_created():215] file/dir created: wandb\run-20201020_222207-27jiy191\files\wandb-metadata.json
+2020-10-20 22:22:10,994 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_created():215] file/dir created: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:10,994 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_created():215] file/dir created: wandb\run-20201020_222207-27jiy191\files\media\graph\g.r.a.p.h_summary_c49576b7.graph.json
+2020-10-20 22:22:10,995 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_created():215] file/dir created: wandb\run-20201020_222207-27jiy191\files\media
+2020-10-20 22:22:10,995 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_created():215] file/dir created: wandb\run-20201020_222207-27jiy191\files\media\graph
+2020-10-20 22:22:11,248 DEBUG   Thread-18 :12200 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-20 22:22:11,254 DEBUG   Thread-18 :12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-10-20 22:22:11,263 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:11,264 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:11,266 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:11,266 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:11,267 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:11,267 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:11,268 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:11,455 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:11,455 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:11,457 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:11,458 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:11,459 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:11,460 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:11,461 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:11,618 DEBUG   Thread-18 :12200 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/todayisagreatday/Airbnb_Project/27jiy191/media/graph/g.r.a.p.h_summary_c49576b7.graph.json?Expires=1603290129&GoogleAccessId=gorilla-cloud-storage%40wandb-production.iam.gserviceaccount.com&Signature=pZtrl9C5ohkNdEoP%2FlIvyFU7m21RTJRCost3NE4B91GfA8EeMSveWdD9jCpiS2OBe0RVWaqaKr19Lk6KC4QDDZS9ZPSuX%2BthOW%2FJV6yRgPPhtzbTckuMWt%2F7gMpqWOPlfLgkoj8p1C7UGCKC%2Frr3dls2AW45YtbwiwrstVXYxStc2yVaqfPEAtIJi1TzKSjmEKD3vnX7BMtC%2BZSHpq7rwELjofgRFyFiqNhMDR5i3mLdXDl92sMHyGfhGRcZ6ixFt0%2FeCr5j%2B3WNMpLl6fHp%2BjuTO09uZ8AFcYXR4rE9peVF1Sds0GWFzDgS8IfodFgH0ttuzWKcL86upDshEoUoEA%3D%3D HTTP/1.1" 200 0
+2020-10-20 22:22:11,623 INFO    Thread-18 :12200 [upload_job.py:push():112] Uploaded file C:\Users\delim\AppData\Local\Temp\tmp4quddoynwandb\2bdjcb4s-media/graph/g.r.a.p.h_summary_c49576b7.graph.json
+2020-10-20 22:22:11,775 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:11,775 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:11,778 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:11,778 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:11,779 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:11,780 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:11,781 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:11,968 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:11,969 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:11,971 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:11,971 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:11,972 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:11,973 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:11,974 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:11,993 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:11,994 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:11,994 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_created():215] file/dir created: wandb\run-20201020_222207-27jiy191\files\model-best.h5
+2020-10-20 22:22:12,033 DEBUG   Thread-19 :12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-20 22:22:12,190 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:12,190 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:12,192 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:12,193 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:12,194 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:12,194 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:12,195 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:12,301 DEBUG   Thread-19 :12200 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-20 22:22:12,320 DEBUG   Thread-19 :12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-10-20 22:22:12,392 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:12,392 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:12,394 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:12,598 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:12,599 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:12,601 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:12,739 DEBUG   Thread-19 :12200 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/todayisagreatday/Airbnb_Project/27jiy191/model-best.h5?Expires=1603290130&GoogleAccessId=gorilla-cloud-storage%40wandb-production.iam.gserviceaccount.com&Signature=DbMWiCgewYNZp0e6DzMsGRIcWPv8%2BHM6Y46hJK02oCq96NcVCRSck%2BIqjUXeDBkk7JLUtEizQJWNR82KNcj9ls5o%2Ff1aggButa03ee0saQ%2FD%2BnWfz%2FFX8Q9BZuq7gt9%2FOgNzROuiC4WimhBmGhn1Cc3P8qM%2Bxo45%2BmW5l%2Fjy8O7HV%2BI0pFVmeG6e2AnBm9K95ix4Q%2Bs3gch3S7eAuRb8GeSDr42uWXtkPJYtDjvrai08%2BHnNkxo%2FDS%2F6uQOEJOyWpyn1M1DlgqviMr4BHW6rEKLj%2FQ3Up5Ir86uFg3pkph5AUV%2Bmx19e2AkLUWu9JjElz7ijQh%2F1lKfLaOKUCzSdhw%3D%3D HTTP/1.1" 200 0
+2020-10-20 22:22:12,740 INFO    Thread-19 :12200 [upload_job.py:push():112] Uploaded file C:\Users\delim\AppData\Local\Temp\tmp4quddoynwandb\y6zqsmqn-model-best.h5
+2020-10-20 22:22:12,751 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:12,752 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:12,753 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:12,894 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:12,895 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:12,896 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:12,995 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\model-best.h5
+2020-10-20 22:22:12,996 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:12,997 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:13,009 DEBUG   Thread-20 :12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-20 22:22:13,059 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:13,059 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:13,060 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:13,060 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:13,061 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:13,062 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:13,062 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:13,225 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:13,226 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:13,228 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:13,262 DEBUG   Thread-20 :12200 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-20 22:22:13,276 DEBUG   Thread-20 :12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-10-20 22:22:13,379 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:13,380 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:13,384 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:13,530 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:13,531 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:13,532 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:13,653 DEBUG   SenderThread:12200 [sender.py:send():88] send: stats
+2020-10-20 22:22:13,683 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:13,683 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:13,684 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:13,684 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:13,685 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:13,685 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:13,686 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:13,690 DEBUG   Thread-20 :12200 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/todayisagreatday/Airbnb_Project/27jiy191/model-best.h5?Expires=1603290131&GoogleAccessId=gorilla-cloud-storage%40wandb-production.iam.gserviceaccount.com&Signature=hr79pYT5r4XfFHxZQo0anRn6gcPy3R%2FwpWxCXbnI3zp0B3ftBLF8abOEgZqfvdwn%2FjWBP8N9atCiZgmZMX6VSZsOWamUKK%2BIXpIqyfNtHLgdtVYDlBO1w4mi44fSXgdbOzve%2F6HrIdOEby7AiSzYzQtbZLRZmm4lhpl8SikTwbVCQfTNV%2FL25XUQth6Q988ym69XgPtLXhK5L18WFvq4bGS22iB%2B811EFvNdHzKJ05g1U1IHZHMNWRU2fUZDlb%2Fqm7B0Jw4Izd05k56RYuzWTryi%2Ff20gafkXsmoywrpkhgFVLTpSz8%2Bz0JMfFVeI6YLTqYrwd8ytS%2F0jt5qPGHqQA%3D%3D HTTP/1.1" 200 0
+2020-10-20 22:22:13,693 INFO    Thread-20 :12200 [upload_job.py:push():112] Uploaded file C:\Users\delim\AppData\Local\Temp\tmp4quddoynwandb\36wt7np8-model-best.h5
+2020-10-20 22:22:13,881 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:13,881 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:13,884 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:14,012 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\model-best.h5
+2020-10-20 22:22:14,013 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:14,015 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:14,073 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:14,074 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:14,076 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:14,121 DEBUG   Thread-21 :12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-20 22:22:14,284 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:14,285 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:14,286 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:14,397 DEBUG   Thread-21 :12200 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-20 22:22:14,410 DEBUG   Thread-21 :12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-10-20 22:22:14,428 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:14,429 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:14,431 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:14,584 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:14,584 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:14,586 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:14,732 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:14,733 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:14,734 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:14,820 DEBUG   Thread-21 :12200 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/todayisagreatday/Airbnb_Project/27jiy191/model-best.h5?Expires=1603290132&GoogleAccessId=gorilla-cloud-storage%40wandb-production.iam.gserviceaccount.com&Signature=GqOkHs0GUQXpu9N%2BZZlzlRju5d1Cq15EFaVgFqCAzEQt%2FqH8jtMe7IX5g7RXNvCg04Do2nLAq1o0yslRCqEbExITE5VkhuiLVOi15k1SlULlPwT9xmTtiVryZN0aSfwmhPlTobSgW6cvf%2BtsM%2BkjNa7joHizRkdqjgy1R3jZj4Li1ARsXLj5chcCcSoFTd6hbptvo6ivXVkgjCJLvNgJzayBFMCxq5QhoESFpAE7skKfHalvrZMjU9c6kVXuM%2BNjGP8jtnHq5dIvbPwXUFA%2BWtgj5dAdsNUrlm44zHKCc8aCo0wKl8hSqzWx14TOsm1%2BSoXxVJ8BABPmqZdG1EGE5g%3D%3D HTTP/1.1" 200 0
+2020-10-20 22:22:14,822 INFO    Thread-21 :12200 [upload_job.py:push():112] Uploaded file C:\Users\delim\AppData\Local\Temp\tmp4quddoynwandb\29ij25y3-model-best.h5
+2020-10-20 22:22:14,874 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:14,875 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:14,877 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:15,025 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:15,026 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:15,033 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:15,034 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:15,035 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:15,185 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:15,185 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:15,189 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:15,344 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:15,345 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:15,347 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:15,489 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:15,490 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:15,491 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:15,629 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:15,630 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:15,632 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:15,794 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:15,794 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:15,795 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:15,933 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:15,934 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:15,935 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:16,040 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:16,041 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:16,079 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:16,080 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:16,084 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:16,246 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:16,247 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:16,249 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:16,389 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:16,390 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:16,392 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:16,541 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:16,542 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:16,543 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:16,685 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:16,685 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:16,687 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:16,845 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:16,846 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:16,848 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:16,991 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:16,991 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:16,993 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:17,052 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:17,053 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:17,143 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:17,144 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:17,145 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:17,311 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:17,312 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:17,313 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:17,454 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:17,455 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:17,457 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:17,604 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:17,605 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:17,606 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:17,754 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:17,754 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:17,757 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:17,915 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:17,915 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:17,916 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:18,053 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:18,053 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:18,055 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:18,068 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:18,069 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:18,215 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:18,217 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:18,218 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:18,369 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:18,370 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:18,371 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:18,508 DEBUG   SenderThread:12200 [sender.py:send():88] send: stats
+2020-10-20 22:22:18,514 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:18,514 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:18,516 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:18,667 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:18,667 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:18,669 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:18,826 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:18,827 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:18,829 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:18,977 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:18,978 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:18,979 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:19,075 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:19,075 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:19,118 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:19,119 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:19,121 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:19,285 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:19,286 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:19,287 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:19,432 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:19,432 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:19,434 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:19,574 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:19,574 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:19,576 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:19,736 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:19,737 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:19,738 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:19,887 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:19,888 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:19,889 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:20,030 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:20,031 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:20,034 DEBUG   Thread-9  :12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-20 22:22:20,034 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:20,091 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:20,091 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:20,202 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:20,203 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:20,204 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:20,333 DEBUG   Thread-9  :12200 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/todayisagreatday/Airbnb_Project/27jiy191/file_stream HTTP/1.1" 200 None
+2020-10-20 22:22:20,366 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:20,367 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:20,368 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:20,523 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:20,525 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:20,526 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:20,681 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:20,681 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:20,683 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:20,845 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:20,848 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:20,851 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:21,006 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:21,007 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:21,009 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:21,108 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:21,108 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:21,152 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:21,153 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:21,155 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:21,314 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:21,315 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:21,317 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:21,466 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:21,467 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:21,469 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:21,625 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:21,627 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:21,628 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:21,773 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:21,773 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:21,775 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:21,923 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:21,924 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:21,925 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:22,085 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:22,086 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:22,088 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:22,127 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:22,128 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:22,238 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:22,238 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:22,239 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:22,384 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:22,385 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:22,387 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:22,549 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:22,550 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:22,551 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:22,695 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:22,695 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:22,697 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:22,840 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:22,841 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:22,842 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:23,001 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:23,002 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:23,003 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:23,135 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:23,136 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:23,155 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:23,155 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:23,157 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:23,309 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:23,311 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:23,312 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:23,343 DEBUG   SenderThread:12200 [sender.py:send():88] send: stats
+2020-10-20 22:22:23,476 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:23,476 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:23,479 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:23,624 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:23,624 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:23,626 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:23,781 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:23,782 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:23,784 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:23,925 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:23,927 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:23,928 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:24,085 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:24,086 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:24,087 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:24,138 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:24,139 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:24,240 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:24,240 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:24,242 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:24,386 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:24,387 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:24,389 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:24,551 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:24,552 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:24,553 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:24,695 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:24,696 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:24,697 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:24,852 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:24,853 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:24,854 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:25,000 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:25,001 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:25,002 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:25,145 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:25,146 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:25,148 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:25,151 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:25,152 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:25,317 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:25,318 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:25,320 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:25,463 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:25,463 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:25,465 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:25,480 DEBUG   HandlerThread:12200 [handler.py:handle_request():54] handle_request: status
+2020-10-20 22:22:25,480 DEBUG   SenderThread:12200 [sender.py:send():88] send: request
+2020-10-20 22:22:25,480 DEBUG   SenderThread:12200 [sender.py:send_request():97] send_request: status
+2020-10-20 22:22:25,482 DEBUG   SenderThread:12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-20 22:22:25,752 DEBUG   SenderThread:12200 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-20 22:22:25,754 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:25,755 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:25,756 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:25,777 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:25,777 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:25,779 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:25,921 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:25,921 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:25,923 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:26,067 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:26,067 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:26,069 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:26,163 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:26,163 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:26,231 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:26,231 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:26,233 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:26,381 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:26,382 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:26,383 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:26,530 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:26,532 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:26,533 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:26,693 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:26,694 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:26,695 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:26,846 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:26,847 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:26,848 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:26,994 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:26,995 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:26,996 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:27,152 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:27,152 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:27,154 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:27,175 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:27,176 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:27,309 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:27,310 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:27,312 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:27,488 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:27,490 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:27,491 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:27,695 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:27,696 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:27,697 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:27,876 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:27,878 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:27,879 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:28,081 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:28,081 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:28,083 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:28,186 DEBUG   SenderThread:12200 [sender.py:send():88] send: stats
+2020-10-20 22:22:28,189 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:28,189 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:28,276 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:28,277 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:28,279 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:28,473 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:28,474 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:28,476 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:28,640 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:28,641 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:28,643 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:28,798 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:28,798 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:28,800 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:28,947 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:28,947 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:28,949 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:29,097 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:29,098 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:29,100 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:29,194 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:29,195 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:29,271 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:29,272 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:29,274 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:29,429 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:29,430 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:29,431 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:29,575 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:29,575 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:29,577 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:29,735 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:29,735 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:29,737 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:29,879 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:29,880 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:29,882 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:30,047 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:30,048 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:30,052 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:30,196 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:30,196 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:30,200 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:30,204 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:30,204 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:30,362 DEBUG   Thread-9  :12200 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/todayisagreatday/Airbnb_Project/27jiy191/file_stream HTTP/1.1" 200 None
+2020-10-20 22:22:30,370 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:30,371 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:30,372 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:30,562 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:30,563 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:30,565 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:30,748 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:30,749 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:30,751 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:30,903 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:30,904 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:30,905 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:31,058 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:31,058 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:31,060 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:31,207 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:31,207 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:31,216 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:31,217 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:31,219 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:31,379 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:31,380 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:31,381 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:31,536 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:31,537 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:31,539 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:31,692 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:31,693 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:31,694 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:31,841 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:31,842 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:31,843 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:31,993 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:31,993 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:31,995 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:32,146 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:32,146 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:32,148 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:32,222 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:32,223 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:32,296 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:32,297 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:32,298 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:32,443 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:32,444 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:32,445 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:32,600 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:32,602 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:32,603 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:32,745 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:32,746 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:32,748 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:32,901 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:32,902 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:32,904 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:33,016 DEBUG   SenderThread:12200 [sender.py:send():88] send: stats
+2020-10-20 22:22:33,050 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:33,050 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:33,052 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:33,202 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:33,202 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:33,204 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:33,238 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:33,239 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:33,357 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:33,357 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:33,359 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:33,504 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:33,504 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:33,505 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:33,651 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:33,652 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:33,653 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:33,806 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:33,807 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:33,808 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:33,955 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:33,955 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:33,957 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:34,102 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:34,102 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:34,103 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:34,251 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:34,251 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:34,262 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:34,262 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:34,264 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:34,424 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:34,426 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:34,427 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:34,605 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:34,605 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:34,606 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:34,852 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:34,852 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:34,854 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:35,028 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:35,029 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:35,032 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:35,252 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:35,253 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:35,254 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:35,255 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:35,257 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:35,449 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:35,449 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:35,451 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:35,616 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:35,617 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:35,619 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:35,821 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:35,821 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:35,823 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:35,992 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:35,993 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:35,995 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:36,183 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:36,184 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:36,186 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:36,261 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:36,262 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:36,385 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:36,385 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:36,387 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:36,570 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:36,570 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:36,572 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:36,755 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:36,756 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:36,758 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:36,990 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:36,992 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:36,993 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:37,167 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:37,168 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:37,170 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:37,268 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:37,269 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:37,392 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:37,392 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:37,394 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:37,566 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:37,567 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:37,569 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:37,776 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:37,777 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:37,779 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:37,915 DEBUG   SenderThread:12200 [sender.py:send():88] send: stats
+2020-10-20 22:22:37,988 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:37,989 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:37,990 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:38,175 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:38,175 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:38,176 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:38,282 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:38,282 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:38,375 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:38,376 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:38,378 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:38,578 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:38,578 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:38,580 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:38,723 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:38,723 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:38,725 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:38,882 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:38,883 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:38,885 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:39,032 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:39,033 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:39,034 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:39,180 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:39,180 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:39,182 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:39,285 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:39,286 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:39,343 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:39,343 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:39,345 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:39,491 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:39,491 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:39,493 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:39,636 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:39,637 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:39,639 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:39,801 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:39,802 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:39,804 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:39,979 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:39,980 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:39,982 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:40,181 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:40,182 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:40,185 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:40,297 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:40,298 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:40,347 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:40,348 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:40,350 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:40,469 DEBUG   Thread-9  :12200 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/todayisagreatday/Airbnb_Project/27jiy191/file_stream HTTP/1.1" 200 None
+2020-10-20 22:22:40,510 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:40,511 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:40,513 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:40,690 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:40,691 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:40,694 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:40,768 DEBUG   HandlerThread:12200 [handler.py:handle_request():54] handle_request: status
+2020-10-20 22:22:40,769 DEBUG   SenderThread:12200 [sender.py:send():88] send: request
+2020-10-20 22:22:40,769 DEBUG   SenderThread:12200 [sender.py:send_request():97] send_request: status
+2020-10-20 22:22:40,775 DEBUG   SenderThread:12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-20 22:22:41,092 DEBUG   SenderThread:12200 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-20 22:22:41,095 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:41,096 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:41,097 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:41,191 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:41,192 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:41,193 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:41,305 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:41,306 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:41,352 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:41,353 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:41,355 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:41,507 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:41,508 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:41,510 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:41,670 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:41,671 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:41,674 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:41,831 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:41,832 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:41,834 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:41,991 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:41,992 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:41,994 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:42,143 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:42,144 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:42,145 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:42,297 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:42,298 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:42,300 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:42,318 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:42,319 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:42,452 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:42,453 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:42,454 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:42,622 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:42,624 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:42,625 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:42,754 DEBUG   SenderThread:12200 [sender.py:send():88] send: stats
+2020-10-20 22:22:42,793 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:42,793 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:42,796 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:42,951 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:42,952 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:42,953 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:43,099 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:43,099 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:43,101 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:43,255 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:43,256 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:43,258 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:43,335 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:43,336 INFO    Thread-12 :12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:43,414 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:43,415 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:43,417 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:43,613 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:43,614 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:43,617 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:43,814 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:43,816 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:43,817 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:44,031 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:44,032 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:44,034 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:44,257 DEBUG   SenderThread:12200 [sender.py:send():88] send: history
+2020-10-20 22:22:44,258 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:44,260 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:44,269 DEBUG   SenderThread:12200 [sender.py:send():88] send: exit
+2020-10-20 22:22:44,270 INFO    SenderThread:12200 [sender.py:send_exit():156] handling exit code: 0
+2020-10-20 22:22:44,272 INFO    SenderThread:12200 [sender.py:send_exit():164] send defer
+2020-10-20 22:22:44,275 DEBUG   HandlerThread:12200 [handler.py:handle_request():54] handle_request: poll_exit
+2020-10-20 22:22:44,277 DEBUG   SenderThread:12200 [sender.py:send():88] send: request
+2020-10-20 22:22:44,277 DEBUG   HandlerThread:12200 [handler.py:handle_request():54] handle_request: defer
+2020-10-20 22:22:44,277 DEBUG   SenderThread:12200 [sender.py:send_request():97] send_request: poll_exit
+2020-10-20 22:22:44,278 INFO    HandlerThread:12200 [handler.py:handle_request_defer():68] handle defer: 0
+2020-10-20 22:22:44,278 DEBUG   SenderThread:12200 [sender.py:send():88] send: request
+2020-10-20 22:22:44,279 DEBUG   SenderThread:12200 [sender.py:send_request():97] send_request: defer
+2020-10-20 22:22:44,279 INFO    SenderThread:12200 [sender.py:send_request_defer():173] handle sender defer: 0
+2020-10-20 22:22:44,279 INFO    SenderThread:12200 [sender.py:send_request_defer():209] send defer: 1
+2020-10-20 22:22:44,280 DEBUG   HandlerThread:12200 [handler.py:handle_request():54] handle_request: defer
+2020-10-20 22:22:44,280 INFO    HandlerThread:12200 [handler.py:handle_request_defer():68] handle defer: 1
+2020-10-20 22:22:44,307 DEBUG   SenderThread:12200 [sender.py:send():88] send: request
+2020-10-20 22:22:44,307 DEBUG   SenderThread:12200 [sender.py:send_request():97] send_request: defer
+2020-10-20 22:22:44,308 INFO    SenderThread:12200 [sender.py:send_request_defer():173] handle sender defer: 1
+2020-10-20 22:22:44,308 INFO    SenderThread:12200 [sender.py:send_request_defer():209] send defer: 2
+2020-10-20 22:22:44,308 DEBUG   SenderThread:12200 [sender.py:send():88] send: stats
+2020-10-20 22:22:44,310 DEBUG   HandlerThread:12200 [handler.py:handle_request():54] handle_request: defer
+2020-10-20 22:22:44,310 INFO    HandlerThread:12200 [handler.py:handle_request_defer():68] handle defer: 2
+2020-10-20 22:22:44,310 DEBUG   SenderThread:12200 [sender.py:send():88] send: request
+2020-10-20 22:22:44,310 DEBUG   SenderThread:12200 [sender.py:send_request():97] send_request: defer
+2020-10-20 22:22:44,311 INFO    SenderThread:12200 [sender.py:send_request_defer():173] handle sender defer: 2
+2020-10-20 22:22:44,311 INFO    SenderThread:12200 [sender.py:send_request_defer():209] send defer: 3
+2020-10-20 22:22:44,311 DEBUG   HandlerThread:12200 [handler.py:handle_request():54] handle_request: defer
+2020-10-20 22:22:44,312 INFO    HandlerThread:12200 [handler.py:handle_request_defer():68] handle defer: 3
+2020-10-20 22:22:44,312 DEBUG   SenderThread:12200 [sender.py:send():88] send: summary
+2020-10-20 22:22:44,314 INFO    SenderThread:12200 [sender.py:_save_file():547] saving file wandb-summary.json with policy end
+2020-10-20 22:22:44,315 DEBUG   SenderThread:12200 [sender.py:send():88] send: request
+2020-10-20 22:22:44,315 DEBUG   SenderThread:12200 [sender.py:send_request():97] send_request: defer
+2020-10-20 22:22:44,315 INFO    SenderThread:12200 [sender.py:send_request_defer():173] handle sender defer: 3
+2020-10-20 22:22:44,315 INFO    SenderThread:12200 [sender.py:send_request_defer():209] send defer: 4
+2020-10-20 22:22:44,316 DEBUG   HandlerThread:12200 [handler.py:handle_request():54] handle_request: defer
+2020-10-20 22:22:44,316 INFO    HandlerThread:12200 [handler.py:handle_request_defer():68] handle defer: 4
+2020-10-20 22:22:44,316 DEBUG   SenderThread:12200 [sender.py:send():88] send: request
+2020-10-20 22:22:44,316 DEBUG   SenderThread:12200 [sender.py:send_request():97] send_request: defer
+2020-10-20 22:22:44,317 INFO    SenderThread:12200 [sender.py:send_request_defer():173] handle sender defer: 4
+2020-10-20 22:22:44,317 INFO    SenderThread:12200 [dir_watcher.py:finish():280] shutting down directory watcher
+2020-10-20 22:22:44,340 INFO    SenderThread:12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:44,341 INFO    SenderThread:12200 [dir_watcher.py:_on_file_modified():228] file/dir modified: wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:44,342 INFO    SenderThread:12200 [dir_watcher.py:finish():309] scan: wandb\run-20201020_222207-27jiy191\files
+2020-10-20 22:22:44,343 INFO    SenderThread:12200 [dir_watcher.py:finish():315] scan save: wandb\run-20201020_222207-27jiy191\files\config.yaml config.yaml
+2020-10-20 22:22:44,344 INFO    SenderThread:12200 [dir_watcher.py:finish():315] scan save: wandb\run-20201020_222207-27jiy191\files\model-best.h5 model-best.h5
+2020-10-20 22:22:44,345 INFO    SenderThread:12200 [dir_watcher.py:finish():315] scan save: wandb\run-20201020_222207-27jiy191\files\output.log output.log
+2020-10-20 22:22:44,346 INFO    SenderThread:12200 [dir_watcher.py:finish():315] scan save: wandb\run-20201020_222207-27jiy191\files\requirements.txt requirements.txt
+2020-10-20 22:22:44,347 INFO    SenderThread:12200 [dir_watcher.py:finish():315] scan save: wandb\run-20201020_222207-27jiy191\files\wandb-metadata.json wandb-metadata.json
+2020-10-20 22:22:44,347 INFO    SenderThread:12200 [dir_watcher.py:finish():315] scan save: wandb\run-20201020_222207-27jiy191\files\wandb-summary.json wandb-summary.json
+2020-10-20 22:22:44,367 DEBUG   Thread-22 :12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-20 22:22:44,372 DEBUG   Thread-24 :12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-20 22:22:44,374 DEBUG   Thread-23 :12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-20 22:22:44,378 INFO    SenderThread:12200 [dir_watcher.py:finish():315] scan save: wandb\run-20201020_222207-27jiy191\files\media\graph\g.r.a.p.h_summary_c49576b7.graph.json media\graph\g.r.a.p.h_summary_c49576b7.graph.json
+2020-10-20 22:22:44,378 INFO    SenderThread:12200 [sender.py:send_request_defer():209] send defer: 5
+2020-10-20 22:22:44,379 DEBUG   Thread-25 :12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-20 22:22:44,380 DEBUG   HandlerThread:12200 [handler.py:handle_request():54] handle_request: defer
+2020-10-20 22:22:44,380 INFO    HandlerThread:12200 [handler.py:handle_request_defer():68] handle defer: 5
+2020-10-20 22:22:44,380 DEBUG   SenderThread:12200 [sender.py:send():88] send: request
+2020-10-20 22:22:44,380 DEBUG   SenderThread:12200 [sender.py:send_request():97] send_request: defer
+2020-10-20 22:22:44,380 INFO    SenderThread:12200 [sender.py:send_request_defer():173] handle sender defer: 5
+2020-10-20 22:22:44,381 INFO    SenderThread:12200 [file_pusher.py:finish():169] shutting down file pusher
+2020-10-20 22:22:44,381 INFO    SenderThread:12200 [sender.py:send_request_defer():209] send defer: 6
+2020-10-20 22:22:44,382 DEBUG   HandlerThread:12200 [handler.py:handle_request():54] handle_request: defer
+2020-10-20 22:22:44,382 INFO    HandlerThread:12200 [handler.py:handle_request_defer():68] handle defer: 6
+2020-10-20 22:22:44,382 DEBUG   SenderThread:12200 [sender.py:send():88] send: request
+2020-10-20 22:22:44,382 DEBUG   SenderThread:12200 [sender.py:send_request():97] send_request: defer
+2020-10-20 22:22:44,382 INFO    SenderThread:12200 [sender.py:send_request_defer():173] handle sender defer: 6
+2020-10-20 22:22:44,628 DEBUG   Thread-9  :12200 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/todayisagreatday/Airbnb_Project/27jiy191/file_stream HTTP/1.1" 200 None
+2020-10-20 22:22:44,636 DEBUG   Thread-22 :12200 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-20 22:22:44,641 DEBUG   Thread-24 :12200 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-20 22:22:44,648 DEBUG   Thread-22 :12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-10-20 22:22:44,649 DEBUG   Thread-24 :12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-10-20 22:22:44,652 DEBUG   Thread-23 :12200 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-20 22:22:44,660 DEBUG   Thread-23 :12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-10-20 22:22:44,700 DEBUG   Thread-25 :12200 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-20 22:22:44,710 DEBUG   Thread-25 :12200 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-10-20 22:22:44,852 DEBUG   Thread-9  :12200 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /files/todayisagreatday/Airbnb_Project/27jiy191/file_stream HTTP/1.1" 200 None
+2020-10-20 22:22:44,855 INFO    SenderThread:12200 [sender.py:send_request_defer():209] send defer: 7
+2020-10-20 22:22:44,855 DEBUG   HandlerThread:12200 [handler.py:handle_request():54] handle_request: defer
+2020-10-20 22:22:44,855 INFO    HandlerThread:12200 [handler.py:handle_request_defer():68] handle defer: 7
+2020-10-20 22:22:44,856 DEBUG   SenderThread:12200 [sender.py:send():88] send: request
+2020-10-20 22:22:44,856 DEBUG   SenderThread:12200 [sender.py:send_request():97] send_request: defer
+2020-10-20 22:22:44,856 INFO    SenderThread:12200 [sender.py:send_request_defer():173] handle sender defer: 7
+2020-10-20 22:22:44,856 INFO    SenderThread:12200 [sender.py:send_request_defer():209] send defer: 8
+2020-10-20 22:22:44,858 DEBUG   SenderThread:12200 [sender.py:send():88] send: final
+2020-10-20 22:22:44,859 DEBUG   SenderThread:12200 [sender.py:send():88] send: footer
+2020-10-20 22:22:44,859 DEBUG   HandlerThread:12200 [handler.py:handle_request():54] handle_request: defer
+2020-10-20 22:22:44,859 INFO    HandlerThread:12200 [handler.py:handle_request_defer():68] handle defer: 8
+2020-10-20 22:22:44,859 DEBUG   SenderThread:12200 [sender.py:send():88] send: request
+2020-10-20 22:22:44,859 DEBUG   SenderThread:12200 [sender.py:send_request():97] send_request: defer
+2020-10-20 22:22:44,859 INFO    SenderThread:12200 [sender.py:send_request_defer():173] handle sender defer: 8
+2020-10-20 22:22:45,015 DEBUG   Thread-22 :12200 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/todayisagreatday/Airbnb_Project/27jiy191/config.yaml?Expires=1603290163&GoogleAccessId=gorilla-cloud-storage%40wandb-production.iam.gserviceaccount.com&Signature=gReW%2FZK%2FJ4XX6tq4DT9BrVRWop5n8%2FM%2BKFtQuinF%2FwL3EekKFvaDxev2q3JxjW0nLcKhpnGu0suTfrtvzzOLieQIdhKOsU8yP9aJ0JALRGGsORs6COp2r%2BbwR1vfkQ3XqHR7HQPmL7Hucz6BRdiBV6cnAwuklcX%2BzM2yW21pHn6p1hPcyQM4xSULENIwPL8akkh3h79RV22WD9Q7diYWAjle9ugIX4DZckkRE2LcJlVq6qYENvYJrAK66C7BtJHoi2b4lveBgwsV1Jk%2BUKBhEmlh0DnQMsxCZr3jJYZLE%2B%2Fs1HObkWZU%2B1oD8ssilV3c8Q1Esm8o4LpOHsjA8OXYpg%3D%3D HTTP/1.1" 200 0
+2020-10-20 22:22:45,017 INFO    Thread-22 :12200 [upload_job.py:push():112] Uploaded file wandb\run-20201020_222207-27jiy191\files\config.yaml
+2020-10-20 22:22:45,022 DEBUG   Thread-24 :12200 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/todayisagreatday/Airbnb_Project/27jiy191/requirements.txt?Expires=1603290163&GoogleAccessId=gorilla-cloud-storage%40wandb-production.iam.gserviceaccount.com&Signature=HhGt2SsAsYakTa4Ejzxrvum6hD72l8aIuUOyjody4ZipxJ8WkZPdSNOwI2gtVOXtORmIVZJwU4D1woBXiyg7EQ89Td%2BDXNnKQ7u1XWeFOJSqiuJTMg%2FV1xeFZjQ2z%2FmSbFYcdAY9w%2BDaPW1JEt55KjrXgd6Xcukh0R1YUO3IvhB0iZhNYIJUgebRnAZ4GTBFpfKy2EHoeHYQaof%2FdgvL6BJ7x3jVpQObxiijC0njdIRhttXc2CPUAyonmwx5QAEJ0KZzNkZk1347McvFeHbCw2Tl3vispRcrhj8erqCii9R84pFcCq23zlAyKeMirdBxgJ59wiaeLItQTNGPcf02sQ%3D%3D HTTP/1.1" 200 0
+2020-10-20 22:22:45,025 INFO    Thread-24 :12200 [upload_job.py:push():112] Uploaded file wandb\run-20201020_222207-27jiy191\files\requirements.txt
+2020-10-20 22:22:45,063 DEBUG   Thread-23 :12200 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/todayisagreatday/Airbnb_Project/27jiy191/output.log?Expires=1603290163&GoogleAccessId=gorilla-cloud-storage%40wandb-production.iam.gserviceaccount.com&Signature=ZDSCBnlRKBAdSiLebBUjBCclGXWtB9d20awePFRNMmbZxW2J3LsuU7yBEfSyLprqJgClU55jYYXLKFNm5hTES4YW6TxODbtizKrSot4oqZHpgzCx7B1ktZMV%2Fdrk3YTo3%2Bcxd%2FSzwmHnw9x38N3o%2FyMD6EN8Li5zhpd771HbyhkGFPWUJIuQWS1D%2BAMkv5pxqin5E0HiMUQnsi5VHXDhkTg767RYzQ9800H0cAXv39lMk36yBQsaBdKqGk3sV1j8ms3S0USkn9fOoXMbRDnID7PZvcQ1KJCt%2Bwp9Z6wFwzXfd9vEwiwtOcpeyCZYreYb1XnMSp555E8iypxsudZGcA%3D%3D HTTP/1.1" 200 0
+2020-10-20 22:22:45,065 INFO    Thread-23 :12200 [upload_job.py:push():112] Uploaded file wandb\run-20201020_222207-27jiy191\files\output.log
+2020-10-20 22:22:45,075 DEBUG   Thread-25 :12200 [connectionpool.py:_make_request():433] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/todayisagreatday/Airbnb_Project/27jiy191/wandb-summary.json?Expires=1603290163&GoogleAccessId=gorilla-cloud-storage%40wandb-production.iam.gserviceaccount.com&Signature=AlfPI2FZLFLiccPF7bwIF2LoSZauXXuxAWu5xakqGw5z9Yjrw9Man1uJi7Hry23hlo%2BGQUoZQ7AOsYaa4185COtkVnHrTB0GYYgaxcRQuLiFPkxY1A8ZXNmRdKx11zFgq3LJ8ugi2rrxdxByX8mKpwpHARgQ2fFQm7EnS8FdiMvxO3aKgVyUDLDz5YLSwN52gvjyZBivZRQW1QcAvSRliAAClcDwbBFLlLtBxGJd4yieIbH2RGJ4hfBp4jhNp50ttDYs54M0aNnAw9x0VZDPkiP%2BJYXNQY5Wv%2FChVE35k55%2FPAyov2xeaUAsDERPgoOVyjkY5Rm4DiGTnCY4ctL9RA%3D%3D HTTP/1.1" 200 0
+2020-10-20 22:22:45,077 INFO    Thread-25 :12200 [upload_job.py:push():112] Uploaded file wandb\run-20201020_222207-27jiy191\files\wandb-summary.json
+2020-10-20 22:22:46,302 DEBUG   HandlerThread:12200 [handler.py:handle_request():54] handle_request: poll_exit
+2020-10-20 22:22:46,302 DEBUG   SenderThread:12200 [sender.py:send():88] send: request
+2020-10-20 22:22:46,303 DEBUG   SenderThread:12200 [sender.py:send_request():97] send_request: poll_exit
+2020-10-20 22:22:46,303 INFO    SenderThread:12200 [file_pusher.py:join():174] waiting for file pusher
+2020-10-20 22:22:46,308 DEBUG   HandlerThread:12200 [handler.py:handle_request():54] handle_request: get_summary
+2020-10-20 22:22:46,309 DEBUG   HandlerThread:12200 [handler.py:handle_request():54] handle_request: sampled_history
+2020-10-20 22:22:46,316 DEBUG   HandlerThread:12200 [handler.py:handle_request():54] handle_request: shutdown
+2020-10-20 22:22:46,316 INFO    HandlerThread:12200 [handler.py:finish():267] shutting down handler
+2020-10-20 22:22:46,882 INFO    WriterThread:12200 [datastore.py:close():257] close: wandb\run-20201020_222207-27jiy191\run-27jiy191.wandb
+2020-10-20 22:22:47,305 INFO    SenderThread:12200 [sender.py:finish():588] shutting down sender
+2020-10-20 22:22:47,305 INFO    SenderThread:12200 [file_pusher.py:finish():169] shutting down file pusher
+2020-10-20 22:22:47,305 INFO    SenderThread:12200 [file_pusher.py:join():174] waiting for file pusher
+2020-10-20 22:22:47,306 INFO    MainThread:12200 [internal.py:handle_exit():137] Internal process exited

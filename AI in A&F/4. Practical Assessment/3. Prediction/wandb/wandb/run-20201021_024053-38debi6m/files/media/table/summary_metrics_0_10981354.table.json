@@ -1,0 +1,1 @@
+{"columns": ["metric_name", "metric_value", "model_name"], "data": [["mae", 75.14, "RandomForestRegressor"], ["mse", 75702.18, "RandomForestRegressor"], ["r2_score", 0.09, "RandomForestRegressor"]]}

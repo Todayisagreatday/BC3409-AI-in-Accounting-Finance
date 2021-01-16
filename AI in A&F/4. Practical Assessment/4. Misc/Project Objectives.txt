@@ -1,0 +1,43 @@
+============Problem statement============
+Airbnb allows its hosts to price their properties. 
+There is a lack of indicators that allow hosts to 
+compare similar listings in their neighbourhood. 
+This has resulted in a suboptimal pricing. As a 
+co-founder of a promising start-up, you intend to 
+solve this problem using state of the art machine 
+learning and natural language processing techniques 
+to advise Airbnb on how to market their property 
+for the best returns.
+
+============Some Questions of interest============
+The hosts on Airbnb experiment and charge an optimal 
+price. So, can we recommend an optimal price the host 
+should charge for the new listing? It is uncertain 
+when a listing is hosted or when it becomes unavailable. 
+Are we able to predict whether certain listing is going 
+to be more popular than the others?
+
+============Key deliverables============
+About 15 pages report (excluding annexes) consisting of:
+1.	Analysis of the datasets (you can use other data 
+sources if appropriate)
+    a.	Statistical and visualisation
+* Note: Include your visualisation in the report for 
+key findings and analysis. Do not abuse the annexes.
+
+2.	Key findings and insights 
+    a.	Please use at least 3 different models covered 
+    in class
+    b.	Important: Please explain your choice of model 
+    and the pros and cons of using such a model
+
+3.	2 Recommendations
+    a.	You can provide recommendations to either insurers 
+    OR government
+    b.	Evaluate the feasibility of your recommendations
+    c.	Provide evidence for your recommendations based on 
+    the data
+
+Tools:
+Feel free to use any tools including Python, R and 
+non-coding tools such as Weka

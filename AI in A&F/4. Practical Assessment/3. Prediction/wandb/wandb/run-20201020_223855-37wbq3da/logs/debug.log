@@ -1,0 +1,47 @@
+2020-10-20 22:38:55,131 INFO    MainThread:14344 [wandb_init.py:_log_setup():292] Logging user logs to wandb\run-20201020_223855-37wbq3da\logs\debug.log
+2020-10-20 22:38:55,131 INFO    MainThread:14344 [wandb_init.py:_log_setup():293] Logging internal logs to wandb\run-20201020_223855-37wbq3da\logs\debug-internal.log
+2020-10-20 22:38:55,131 INFO    MainThread:14344 [wandb_setup.py:_flush():69] setting env: {}
+2020-10-20 22:38:55,131 INFO    MainThread:14344 [wandb_setup.py:_flush():69] setting user settings: {'email': 'delimited@live.com'}
+2020-10-20 22:38:55,131 INFO    MainThread:14344 [wandb_setup.py:_flush():69] multiprocessing start_methods=spawn
+2020-10-20 22:38:57,882 INFO    MainThread:14344 [wandb_run.py:_console_start():1276] atexit reg
+2020-10-20 22:38:57,896 INFO    MainThread:14344 [wandb_run.py:_redirect():1146] redirect: SettingsConsole.WRAP
+2020-10-20 22:38:57,897 INFO    MainThread:14344 [wandb_run.py:_redirect():1177] Wrapping output streams.
+2020-10-20 22:38:57,897 INFO    MainThread:14344 [wandb_run.py:_redirect():1193] Redirects installed.
+2020-10-20 22:39:43,722 INFO    MainThread:14344 [wandb_run.py:_atexit_cleanup():1249] got exitcode: 0
+2020-10-20 22:39:43,723 INFO    MainThread:14344 [wandb_run.py:_restore():1221] restore
+2020-10-20 22:39:43,736 INFO    MainThread:14344 [wandb_run.py:_wait_for_finish():1360] got exit ret: uuid: "4974f001b3b64f72bc258f05ff97b3fb"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+      media_count: 1
+      other_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 37964
+      total_bytes: 37964
+    }
+  }
+}
+
+2020-10-20 22:39:45,754 INFO    MainThread:14344 [wandb_run.py:_wait_for_finish():1360] got exit ret: uuid: "c6a609df5ab34d7980ce62b163069943"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+      other_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 64298
+      total_bytes: 64298
+    }
+  }
+}
+
+2020-10-20 22:39:46,941 INFO    MainThread:14344 [wandb_run.py:_show_summary():1488] rendering summary
+2020-10-20 22:39:46,945 INFO    MainThread:14344 [wandb_run.py:_show_files():1554] logging synced files
+2020-10-20 22:39:46,955 INFO    MainThread:14344 [internal.py:handle_exit():137] Internal process exited

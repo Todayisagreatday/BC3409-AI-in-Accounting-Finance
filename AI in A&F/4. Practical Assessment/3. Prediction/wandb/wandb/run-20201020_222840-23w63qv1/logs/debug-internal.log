@@ -1,0 +1,64 @@
+2020-10-20 22:28:42,059 INFO    MainThread:15156 [internal.py:wandb_internal():62] W&B internal server running at pid: 15156
+2020-10-20 22:28:42,061 INFO    WriterThread:15156 [datastore.py:open_for_write():76] open: wandb\run-20201020_222840-23w63qv1\run-23w63qv1.wandb
+2020-10-20 22:28:42,062 DEBUG   HandlerThread:15156 [handler.py:handle_request():54] handle_request: check_version
+2020-10-20 22:28:42,063 DEBUG   SenderThread:15156 [sender.py:send():88] send: header
+2020-10-20 22:28:42,063 DEBUG   SenderThread:15156 [sender.py:send():88] send: request
+2020-10-20 22:28:42,063 DEBUG   SenderThread:15156 [sender.py:send_request():97] send_request: check_version
+2020-10-20 22:28:42,071 DEBUG   Thread-8  :15156 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): pypi.org:443
+2020-10-20 22:28:42,209 DEBUG   Thread-8  :15156 [connectionpool.py:_make_request():433] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 50840
+2020-10-20 22:28:42,298 DEBUG   SenderThread:15156 [sender.py:send():88] send: run
+2020-10-20 22:28:42,301 INFO    SenderThread:15156 [sender.py:_maybe_setup_resume():268] checking resume status for None/Airbnb_Project/23w63qv1
+2020-10-20 22:28:42,303 DEBUG   SenderThread:15156 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-20 22:28:42,551 DEBUG   SenderThread:15156 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-10-20 22:28:42,567 DEBUG   SenderThread:15156 [util.py:is_cygwin_git():315] Failed checking if running in CYGWIN due to: FileNotFoundError(2, 'The system cannot find the file specified', None, 2, None)
+2020-10-20 22:28:42,575 DEBUG   SenderThread:15156 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-10-20 22:28:42,832 DEBUG   SenderThread:15156 [connectionpool.py:_make_request():433] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 400 None
+2020-10-20 22:28:42,834 ERROR   SenderThread:15156 [internal_api.py:execute():131] 400 response executing GraphQL.
+2020-10-20 22:28:42,834 ERROR   SenderThread:15156 [internal_api.py:execute():132] {"errors":[{"message":"run todayisagreatday/Airbnb_Project/23w63qv1 was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2020-10-20 22:28:43,302 INFO    WriterThread:15156 [datastore.py:close():257] close: wandb\run-20201020_222840-23w63qv1\run-23w63qv1.wandb
+2020-10-20 22:28:43,302 INFO    HandlerThread:15156 [handler.py:finish():267] shutting down handler
+2020-10-20 22:28:43,302 ERROR   MainThread:15156 [internal.py:wandb_internal():128] Thread SenderThread:
+Traceback (most recent call last):
+  File "C:\Users\delim\AppData\Roaming\Python\Python38\site-packages\wandb\apis\normalize.py", line 24, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\delim\AppData\Roaming\Python\Python38\site-packages\wandb\internal\internal_api.py", line 973, in upsert_run
+    response = self.gql(mutation, variable_values=variable_values, **kwargs)
+  File "C:\Users\delim\AppData\Roaming\Python\Python38\site-packages\wandb\old\retry.py", line 96, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\delim\AppData\Roaming\Python\Python38\site-packages\wandb\internal\internal_api.py", line 134, in execute
+    six.reraise(*sys.exc_info())
+  File "C:\ProgramData\Anaconda3\lib\site-packages\six.py", line 703, in reraise
+    raise value
+  File "C:\Users\delim\AppData\Roaming\Python\Python38\site-packages\wandb\internal\internal_api.py", line 128, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\Users\delim\AppData\Roaming\Python\Python38\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\delim\AppData\Roaming\Python\Python38\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\delim\AppData\Roaming\Python\Python38\site-packages\wandb\vendor\gql-0.2.0\gql\transport\requests.py", line 39, in execute
+    request.raise_for_status()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\requests\models.py", line 941, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\delim\AppData\Roaming\Python\Python38\site-packages\wandb\internal\internal_util.py", line 33, in run
+    self._run()
+  File "C:\Users\delim\AppData\Roaming\Python\Python38\site-packages\wandb\internal\internal_util.py", line 60, in _run
+    self._process(record)
+  File "C:\Users\delim\AppData\Roaming\Python\Python38\site-packages\wandb\internal\internal.py", line 232, in _process
+    self._sm.send(record)
+  File "C:\Users\delim\AppData\Roaming\Python\Python38\site-packages\wandb\internal\sender.py", line 90, in send
+    send_handler(record)
+  File "C:\Users\delim\AppData\Roaming\Python\Python38\site-packages\wandb\internal\sender.py", line 360, in send_run
+    self._init_run(run, config_dict)
+  File "C:\Users\delim\AppData\Roaming\Python\Python38\site-packages\wandb\internal\sender.py", line 382, in _init_run
+    server_run, inserted = self._api.upsert_run(
+  File "C:\Users\delim\AppData\Roaming\Python\Python38\site-packages\wandb\apis\normalize.py", line 26, in wrapper
+    raise CommError(err.response, err)
+wandb.errors.error.CommError: <Response [400]>
+2020-10-20 22:28:43,385 DEBUG   raven-sentry.BackgroundWorker:15156 [connectionpool.py:_new_conn():937] Starting new HTTPS connection (1): o151352.ingest.sentry.io:443
+2020-10-20 22:28:44,285 DEBUG   raven-sentry.BackgroundWorker:15156 [connectionpool.py:_make_request():433] https://o151352.ingest.sentry.io:443 "POST /api/5288891/store/ HTTP/1.1" 200 41
+2020-10-20 22:28:45,393 INFO    MainThread:15156 [internal.py:handle_exit():137] Internal process exited

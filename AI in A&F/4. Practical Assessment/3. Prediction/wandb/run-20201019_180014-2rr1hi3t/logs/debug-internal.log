@@ -1,0 +1,14 @@
+2020-10-19 18:00:16,941 INFO    MainThread:6512 [internal.py:wandb_internal():62] W&B internal server running at pid: 6512
+2020-10-19 18:00:16,956 INFO    WriterThread:6512 [datastore.py:open_for_write():76] open: wandb\run-20201019_180014-2rr1hi3t\run-2rr1hi3t.wandb
+2020-10-19 18:00:16,956 DEBUG   HandlerThread:6512 [handler.py:handle_request():54] handle_request: check_version
+2020-10-19 18:00:16,958 DEBUG   SenderThread:6512 [sender.py:send():88] send: header
+2020-10-19 18:00:16,959 DEBUG   SenderThread:6512 [sender.py:send():88] send: request
+2020-10-19 18:00:16,960 DEBUG   SenderThread:6512 [sender.py:send_request():97] send_request: check_version
+2020-10-19 18:00:16,973 DEBUG   Thread-8  :6512 [connectionpool.py:_new_conn():941] Starting new HTTPS connection (1): pypi.org:443
+2020-10-19 18:00:17,199 DEBUG   Thread-8  :6512 [connectionpool.py:_make_request():442] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 50840
+2020-10-19 18:00:17,972 WARNING MainThread:6512 [internal.py:is_dead():285] Internal process exiting, parent pid 7720 disappeared
+2020-10-19 18:00:17,972 ERROR   MainThread:6512 [internal.py:wandb_internal():112] Internal process shutdown.
+2020-10-19 18:00:17,975 INFO    WriterThread:6512 [datastore.py:close():257] close: wandb\run-20201019_180014-2rr1hi3t\run-2rr1hi3t.wandb
+2020-10-19 18:00:18,394 INFO    SenderThread:6512 [sender.py:finish():588] shutting down sender
+2020-10-19 18:00:18,969 INFO    HandlerThread:6512 [handler.py:finish():267] shutting down handler
+2020-10-19 18:00:18,972 INFO    MainThread:6512 [internal.py:handle_exit():137] Internal process exited

@@ -1,0 +1,32 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.4",
+    "heartbeatAt": "2020-10-19T09:47:35.555294",
+    "startedAt": "2020-10-19T09:47:31.539515",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--ip=127.0.0.1",
+        "--stdin=9118",
+        "--control=9116",
+        "--hb=9115",
+        "--Session.signature_scheme=\"hmac-sha256\"",
+        "--Session.key=b\"4ae2a445-581f-4c35-b96a-2266c838bdb3\"",
+        "--shell=9117",
+        "--transport=\"tcp\"",
+        "--iopub=9119",
+        "--f=C:\\Users\\delim\\AppData\\Local\\Temp\\tmp-12076f0FMSI8uIqPV.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/Todayisagreatday/NN.git",
+        "commit": null
+    },
+    "email": null,
+    "root": "C:/Users/delim",
+    "host": "bubblegum",
+    "username": "delim",
+    "executable": "C:\\Users\\delim\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe"
+}

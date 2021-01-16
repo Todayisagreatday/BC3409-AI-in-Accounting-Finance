@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "c:\Users\delim\Desktop\AI in A&F Indiv Assignment\Practical Assessment\Prediction\NN.py", line 52, in <module>
+    loss=keras.losses.mean_squared_logarithmic_error(),
+  File "C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\util\dispatch.py", line 201, in wrapper
+    return target(*args, **kwargs)
+TypeError: mean_squared_logarithmic_error() missing 2 required positional arguments: 'y_true' and 'y_pred'

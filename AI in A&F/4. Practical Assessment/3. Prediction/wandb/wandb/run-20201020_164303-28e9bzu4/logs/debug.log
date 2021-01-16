@@ -1,0 +1,52 @@
+2020-10-20 16:43:03,877 INFO    MainThread:12256 [wandb_init.py:_log_setup():292] Logging user logs to wandb\run-20201020_164303-28e9bzu4\logs\debug.log
+2020-10-20 16:43:03,879 INFO    MainThread:12256 [wandb_init.py:_log_setup():293] Logging internal logs to wandb\run-20201020_164303-28e9bzu4\logs\debug-internal.log
+2020-10-20 16:43:03,879 INFO    MainThread:12256 [wandb_setup.py:_flush():69] setting env: {}
+2020-10-20 16:43:03,879 INFO    MainThread:12256 [wandb_setup.py:_flush():69] setting user settings: {'email': 'delimited@live.com'}
+2020-10-20 16:43:03,879 INFO    MainThread:12256 [wandb_setup.py:_flush():69] multiprocessing start_methods=spawn
+2020-10-20 16:43:07,358 INFO    MainThread:12256 [wandb_run.py:_console_start():1276] atexit reg
+2020-10-20 16:43:07,384 INFO    MainThread:12256 [wandb_run.py:_redirect():1146] redirect: SettingsConsole.WRAP
+2020-10-20 16:43:07,385 INFO    MainThread:12256 [wandb_run.py:_redirect():1177] Wrapping output streams.
+2020-10-20 16:43:07,385 INFO    MainThread:12256 [wandb_run.py:_redirect():1193] Redirects installed.
+2020-10-20 16:43:08,521 INFO    MainThread:12256 [wandb_run.py:_config_callback():586] config_cb None None {'_wandb': {'cli_version': '0.10.7', 'python_version': '3.7.4', 'is_jupyter_run': False, 'is_kaggle_kernel': False, 'framework': 'sklearn', 'viz': {'summary_metrics': {'id': 'wandb/metrics/v1', 'historyFieldSettings': {'key': 'summary_metrics', 'x-axis': '_step'}}}}}
+2020-10-20 16:43:20,725 INFO    MainThread:12256 [wandb_run.py:_config_callback():586] config_cb None None {'_wandb': {'cli_version': '0.10.7', 'python_version': '3.7.4', 'is_jupyter_run': False, 'is_kaggle_kernel': False, 'framework': 'sklearn', 'viz': {'summary_metrics': {'id': 'wandb/metrics/v1', 'historyFieldSettings': {'key': 'summary_metrics', 'x-axis': '_step'}}, 'learning_curve': {'id': 'wandb/learning_curve/v1', 'historyFieldSettings': {'key': 'learning_curve', 'x-axis': '_step'}}}}}
+2020-10-20 16:43:22,214 INFO    MainThread:12256 [wandb_run.py:_config_callback():586] config_cb None None {'_wandb': {'cli_version': '0.10.7', 'python_version': '3.7.4', 'is_jupyter_run': False, 'is_kaggle_kernel': False, 'framework': 'sklearn', 'viz': {'summary_metrics': {'id': 'wandb/metrics/v1', 'historyFieldSettings': {'key': 'summary_metrics', 'x-axis': '_step'}}, 'learning_curve': {'id': 'wandb/learning_curve/v1', 'historyFieldSettings': {'key': 'learning_curve', 'x-axis': '_step'}}, 'outlier_candidates': {'id': 'wandb/outliers/v1', 'historyFieldSettings': {'key': 'outlier_candidates', 'x-axis': '_step'}}}}}
+2020-10-20 16:43:23,696 INFO    MainThread:12256 [wandb_run.py:_config_callback():586] config_cb None None {'_wandb': {'cli_version': '0.10.7', 'python_version': '3.7.4', 'is_jupyter_run': False, 'is_kaggle_kernel': False, 'framework': 'sklearn', 'viz': {'summary_metrics': {'id': 'wandb/metrics/v1', 'historyFieldSettings': {'key': 'summary_metrics', 'x-axis': '_step'}}, 'learning_curve': {'id': 'wandb/learning_curve/v1', 'historyFieldSettings': {'key': 'learning_curve', 'x-axis': '_step'}}, 'outlier_candidates': {'id': 'wandb/outliers/v1', 'historyFieldSettings': {'key': 'outlier_candidates', 'x-axis': '_step'}}, 'residuals': {'id': 'wandb/residuals_plot/v1', 'historyFieldSettings': {'key': 'residuals', 'x-axis': '_step'}}}}}
+2020-10-20 16:43:25,338 INFO    MainThread:12256 [wandb_run.py:_config_callback():586] config_cb None None {'_wandb': {'cli_version': '0.10.7', 'python_version': '3.7.4', 'is_jupyter_run': False, 'is_kaggle_kernel': False, 'framework': 'sklearn', 'viz': {'summary_metrics': {'id': 'wandb/metrics/v1', 'historyFieldSettings': {'key': 'summary_metrics', 'x-axis': '_step'}}, 'learning_curve': {'id': 'wandb/learning_curve/v1', 'historyFieldSettings': {'key': 'learning_curve', 'x-axis': '_step'}}, 'outlier_candidates': {'id': 'wandb/outliers/v1', 'historyFieldSettings': {'key': 'outlier_candidates', 'x-axis': '_step'}}, 'residuals': {'id': 'wandb/residuals_plot/v1', 'historyFieldSettings': {'key': 'residuals', 'x-axis': '_step'}}}}}
+2020-10-20 16:43:26,480 INFO    MainThread:12256 [wandb_run.py:_config_callback():586] config_cb None None {'_wandb': {'cli_version': '0.10.7', 'python_version': '3.7.4', 'is_jupyter_run': False, 'is_kaggle_kernel': False, 'framework': 'sklearn', 'viz': {'summary_metrics': {'id': 'wandb/metrics/v1', 'historyFieldSettings': {'key': 'summary_metrics', 'x-axis': '_step'}}, 'learning_curve': {'id': 'wandb/learning_curve/v1', 'historyFieldSettings': {'key': 'learning_curve', 'x-axis': '_step'}}, 'outlier_candidates': {'id': 'wandb/outliers/v1', 'historyFieldSettings': {'key': 'outlier_candidates', 'x-axis': '_step'}}, 'residuals': {'id': 'wandb/residuals_plot/v1', 'historyFieldSettings': {'key': 'residuals', 'x-axis': '_step'}}}}}
+2020-10-20 16:43:26,546 INFO    MainThread:12256 [wandb_run.py:_atexit_cleanup():1249] got exitcode: 0
+2020-10-20 16:43:26,548 INFO    MainThread:12256 [wandb_run.py:_restore():1221] restore
+2020-10-20 16:43:26,925 INFO    MainThread:12256 [wandb_run.py:_wait_for_finish():1360] got exit ret: uuid: "c079fc5023a6475e8662e02c31cca81e"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+      media_count: 6
+    }
+    pusher_stats {
+      uploaded_bytes: 139846
+      total_bytes: 157904
+    }
+  }
+}
+
+2020-10-20 16:43:28,961 INFO    MainThread:12256 [wandb_run.py:_wait_for_finish():1360] got exit ret: uuid: "b95ed49cf4004529ac0771f6d3124d38"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+      media_count: 6
+    }
+    pusher_stats {
+      uploaded_bytes: 161655
+      total_bytes: 161655
+    }
+  }
+}
+
+2020-10-20 16:43:30,294 INFO    MainThread:12256 [wandb_run.py:_show_summary():1488] rendering summary
+2020-10-20 16:43:30,393 INFO    MainThread:12256 [wandb_run.py:_show_history():1526] rendering history
+2020-10-20 16:43:30,438 INFO    MainThread:12256 [wandb_run.py:_show_files():1554] logging synced files
+2020-10-20 16:43:30,485 INFO    MainThread:12256 [internal.py:handle_exit():137] Internal process exited

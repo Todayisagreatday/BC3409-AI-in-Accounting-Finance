@@ -1,0 +1,9 @@
+2020-10-21 02:25:26,055 INFO    MainThread:2544 [wandb_init.py:_log_setup():292] Logging user logs to wandb\run-20201021_022526-20gs1rzw\logs\debug.log
+2020-10-21 02:25:26,055 INFO    MainThread:2544 [wandb_init.py:_log_setup():293] Logging internal logs to wandb\run-20201021_022526-20gs1rzw\logs\debug-internal.log
+2020-10-21 02:25:26,056 INFO    MainThread:2544 [wandb_setup.py:_flush():69] setting env: {}
+2020-10-21 02:25:26,056 INFO    MainThread:2544 [wandb_setup.py:_flush():69] setting user settings: {'email': 'delimited@live.com'}
+2020-10-21 02:25:26,056 INFO    MainThread:2544 [wandb_setup.py:_flush():69] multiprocessing start_methods=spawn
+2020-10-21 02:25:31,598 INFO    MainThread:2544 [wandb_run.py:_console_start():1276] atexit reg
+2020-10-21 02:25:31,618 INFO    MainThread:2544 [wandb_run.py:_redirect():1146] redirect: SettingsConsole.WRAP
+2020-10-21 02:25:31,619 INFO    MainThread:2544 [wandb_run.py:_redirect():1177] Wrapping output streams.
+2020-10-21 02:25:31,619 INFO    MainThread:2544 [wandb_run.py:_redirect():1193] Redirects installed.

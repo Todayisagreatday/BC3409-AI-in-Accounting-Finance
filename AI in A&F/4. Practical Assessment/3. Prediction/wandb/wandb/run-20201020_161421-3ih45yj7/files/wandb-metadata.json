@@ -1,0 +1,22 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.4",
+    "heartbeatAt": "2020-10-20T08:14:25.153549",
+    "startedAt": "2020-10-20T08:14:21.802338",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "codePath": "Desktop\\AI in A&F Indiv Assignment\\Practical Assessment\\Prediction\\SVR.py",
+    "program": "c:/Users/delim/Desktop/AI in A&F Indiv Assignment/Practical Assessment/Prediction/SVR.py",
+    "git": {
+        "remote": "https://github.com/Todayisagreatday/NN.git",
+        "commit": null
+    },
+    "email": null,
+    "root": "C:/Users/delim",
+    "host": "bubblegum",
+    "username": "delim",
+    "executable": "C:\\Users\\delim\\AppData\\Local\\Programs\\Python\\Python37-32\\python.exe"
+}

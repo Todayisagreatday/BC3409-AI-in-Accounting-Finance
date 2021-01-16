@@ -1,0 +1,99 @@
+c:\Users\delim\Desktop\AI in A&F Indiv Assignment\Practical Assessment\Prediction\NN.py:39: RuntimeWarning: invalid value encountered in true_divide
+  X_data = (X_data- np.mean(X_data, axis=0))/ np.std(X_data, axis=0)
+Epoch 1/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 2/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 3/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 4/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 5/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 6/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 7/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 8/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 9/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 10/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 11/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 12/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 13/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 14/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 15/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 16/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 17/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 18/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 19/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 20/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 21/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 22/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 23/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 24/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 25/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 26/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 27/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 28/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 29/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 30/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 31/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 32/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 33/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 34/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 35/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 36/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 37/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 38/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 39/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 40/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 41/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 42/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 43/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 44/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 45/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 46/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 47/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 48/200
+74/74 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 49/200

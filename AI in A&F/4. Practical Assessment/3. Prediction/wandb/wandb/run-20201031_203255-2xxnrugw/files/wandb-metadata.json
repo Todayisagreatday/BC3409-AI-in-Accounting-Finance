@@ -1,0 +1,22 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.3",
+    "heartbeatAt": "2020-10-31T12:32:59.269863",
+    "startedAt": "2020-10-31T12:32:55.149503",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "codePath": "Desktop\\AI in A&F Indiv Assignment\\Practical Assessment\\Prediction\\preprocess_test.py",
+    "program": "c:\\Users\\delim\\Desktop\\AI in A&F Indiv Assignment\\Practical Assessment\\Prediction\\preprocess_test.py",
+    "git": {
+        "remote": "https://github.com/Todayisagreatday/NN.git",
+        "commit": null
+    },
+    "email": null,
+    "root": "C:/Users/delim",
+    "host": "bubblegum",
+    "username": "delim",
+    "executable": "C:\\ProgramData\\Anaconda3\\python.exe"
+}

@@ -1,0 +1,407 @@
+Epoch 1/500
+87/87 - 1s - loss: 170.0429 - mse: 173580.8594 - val_loss: 140.7393 - val_mse: 67799.6484
+Epoch 2/500
+87/87 - 0s - loss: 101.6460 - mse: 149801.9219 - val_loss: 69.1189 - val_mse: 44150.4805
+Epoch 3/500
+87/87 - 0s - loss: 80.9450 - mse: 142155.3594 - val_loss: 66.7911 - val_mse: 44025.5664
+Epoch 4/500
+87/87 - 0s - loss: 79.8881 - mse: 141622.6719 - val_loss: 66.8354 - val_mse: 43604.9805
+Epoch 5/500
+87/87 - 0s - loss: 79.2364 - mse: 141313.0625 - val_loss: 65.7914 - val_mse: 43981.3516
+Epoch 6/500
+87/87 - 0s - loss: 78.8144 - mse: 141209.4844 - val_loss: 65.5647 - val_mse: 43659.9219
+Epoch 7/500
+87/87 - 0s - loss: 78.5785 - mse: 141023.5312 - val_loss: 65.4131 - val_mse: 44225.9258
+Epoch 8/500
+87/87 - 0s - loss: 78.2053 - mse: 140683.9375 - val_loss: 64.8625 - val_mse: 43571.5625
+Epoch 9/500
+87/87 - 0s - loss: 77.8652 - mse: 140459.7656 - val_loss: 64.7970 - val_mse: 43634.8242
+Epoch 10/500
+87/87 - 0s - loss: 77.6793 - mse: 140368.3594 - val_loss: 64.4019 - val_mse: 43383.1016
+Epoch 11/500
+87/87 - 0s - loss: 77.3372 - mse: 140024.8438 - val_loss: 64.1976 - val_mse: 42946.3750
+Epoch 12/500
+87/87 - 0s - loss: 77.2125 - mse: 140045.7656 - val_loss: 64.3702 - val_mse: 43184.2734
+Epoch 13/500
+87/87 - 0s - loss: 76.9911 - mse: 139743.9531 - val_loss: 64.2939 - val_mse: 43022.6133
+Epoch 14/500
+87/87 - 0s - loss: 76.8495 - mse: 139679.8750 - val_loss: 63.7950 - val_mse: 42801.6367
+Epoch 15/500
+87/87 - 0s - loss: 76.5266 - mse: 139387.0938 - val_loss: 64.1621 - val_mse: 43199.0664
+Epoch 16/500
+87/87 - 0s - loss: 76.4023 - mse: 139361.8906 - val_loss: 63.4696 - val_mse: 42957.8281
+Epoch 17/500
+87/87 - 0s - loss: 76.4272 - mse: 139526.0312 - val_loss: 63.3206 - val_mse: 42742.8867
+Epoch 18/500
+87/87 - 0s - loss: 76.3394 - mse: 139220.0000 - val_loss: 63.4428 - val_mse: 42547.5664
+Epoch 19/500
+87/87 - 0s - loss: 76.3164 - mse: 139223.9688 - val_loss: 63.4692 - val_mse: 42614.9336
+Epoch 20/500
+87/87 - 0s - loss: 76.2327 - mse: 139376.9531 - val_loss: 63.1756 - val_mse: 42386.5000
+Epoch 21/500
+87/87 - 0s - loss: 76.0260 - mse: 139029.5781 - val_loss: 63.0976 - val_mse: 42327.1328
+Epoch 22/500
+87/87 - 0s - loss: 75.9955 - mse: 138946.0625 - val_loss: 63.3182 - val_mse: 42618.7188
+Epoch 23/500
+87/87 - 0s - loss: 75.8874 - mse: 138819.6875 - val_loss: 63.0406 - val_mse: 42468.0859
+Epoch 24/500
+87/87 - 0s - loss: 75.8430 - mse: 138617.9844 - val_loss: 63.3652 - val_mse: 42707.8398
+Epoch 25/500
+87/87 - 0s - loss: 75.7627 - mse: 138600.8125 - val_loss: 63.0963 - val_mse: 42602.6641
+Epoch 26/500
+87/87 - 0s - loss: 75.6902 - mse: 138656.8125 - val_loss: 63.1393 - val_mse: 42106.7344
+Epoch 27/500
+87/87 - 0s - loss: 75.6332 - mse: 138504.5312 - val_loss: 63.0661 - val_mse: 42774.9609
+Epoch 28/500
+87/87 - 0s - loss: 75.5708 - mse: 138554.5156 - val_loss: 62.5018 - val_mse: 42599.4609
+Epoch 29/500
+87/87 - 0s - loss: 75.3543 - mse: 138455.2969 - val_loss: 62.8829 - val_mse: 42267.5469
+Epoch 30/500
+87/87 - 0s - loss: 75.3659 - mse: 138145.4062 - val_loss: 62.7782 - val_mse: 42483.6211
+Epoch 31/500
+87/87 - 0s - loss: 75.4312 - mse: 138513.6250 - val_loss: 62.5385 - val_mse: 42366.6797
+Epoch 32/500
+87/87 - 0s - loss: 75.2553 - mse: 138119.2500 - val_loss: 62.6834 - val_mse: 42817.7891
+Epoch 33/500
+87/87 - 0s - loss: 75.1824 - mse: 138454.2188 - val_loss: 63.1206 - val_mse: 41950.7422
+Epoch 34/500
+87/87 - 0s - loss: 75.2036 - mse: 138055.4062 - val_loss: 62.2494 - val_mse: 42364.1445
+Epoch 35/500
+87/87 - 0s - loss: 75.0795 - mse: 138340.7031 - val_loss: 62.3989 - val_mse: 42235.7148
+Epoch 36/500
+87/87 - 0s - loss: 74.9718 - mse: 138014.2812 - val_loss: 62.7467 - val_mse: 41988.2969
+Epoch 37/500
+87/87 - 0s - loss: 75.0345 - mse: 137903.1406 - val_loss: 62.3856 - val_mse: 42481.2695
+Epoch 38/500
+87/87 - 0s - loss: 74.9736 - mse: 137946.2812 - val_loss: 62.6862 - val_mse: 42539.3906
+Epoch 39/500
+87/87 - 0s - loss: 74.9243 - mse: 137959.8906 - val_loss: 62.1379 - val_mse: 42389.0469
+Epoch 40/500
+87/87 - 0s - loss: 74.8436 - mse: 137786.9375 - val_loss: 62.3024 - val_mse: 42251.1875
+Epoch 41/500
+87/87 - 0s - loss: 74.6887 - mse: 137926.3438 - val_loss: 62.8947 - val_mse: 42715.6367
+Epoch 42/500
+87/87 - 0s - loss: 74.7879 - mse: 137936.2031 - val_loss: 63.3257 - val_mse: 42078.1641
+Epoch 43/500
+87/87 - 0s - loss: 74.7893 - mse: 137958.9062 - val_loss: 62.4789 - val_mse: 42367.9141
+Epoch 44/500
+87/87 - 0s - loss: 74.7611 - mse: 137975.2500 - val_loss: 62.4032 - val_mse: 42264.5742
+Epoch 45/500
+87/87 - 0s - loss: 74.6668 - mse: 137688.8438 - val_loss: 62.7440 - val_mse: 41886.9805
+Epoch 46/500
+87/87 - 0s - loss: 74.7129 - mse: 137737.7656 - val_loss: 62.0040 - val_mse: 42052.4531
+Epoch 47/500
+87/87 - 0s - loss: 74.4857 - mse: 137782.6250 - val_loss: 62.3603 - val_mse: 42175.8633
+Epoch 48/500
+87/87 - 0s - loss: 74.5165 - mse: 137597.7812 - val_loss: 62.0841 - val_mse: 41806.4219
+Epoch 49/500
+87/87 - 0s - loss: 74.5166 - mse: 137801.5781 - val_loss: 62.9845 - val_mse: 41541.1016
+Epoch 50/500
+87/87 - 0s - loss: 74.5097 - mse: 137630.3281 - val_loss: 62.8407 - val_mse: 41715.6367
+Epoch 51/500
+87/87 - 0s - loss: 74.5278 - mse: 137560.7812 - val_loss: 62.3893 - val_mse: 41677.9141
+Epoch 52/500
+87/87 - 0s - loss: 74.4243 - mse: 137515.1562 - val_loss: 62.1056 - val_mse: 42156.8984
+Epoch 53/500
+87/87 - 0s - loss: 74.3215 - mse: 137611.6094 - val_loss: 62.1805 - val_mse: 41604.5586
+Epoch 54/500
+87/87 - 0s - loss: 74.3872 - mse: 137537.2812 - val_loss: 61.6971 - val_mse: 41956.5547
+Epoch 55/500
+87/87 - 0s - loss: 74.2680 - mse: 137559.3594 - val_loss: 61.8693 - val_mse: 42014.4805
+Epoch 56/500
+87/87 - 0s - loss: 74.2954 - mse: 137506.3906 - val_loss: 61.7518 - val_mse: 41988.0938
+Epoch 57/500
+87/87 - 0s - loss: 74.3279 - mse: 137437.4844 - val_loss: 61.9186 - val_mse: 41737.0508
+Epoch 58/500
+87/87 - 0s - loss: 74.1821 - mse: 137418.8594 - val_loss: 62.1267 - val_mse: 41783.1094
+Epoch 59/500
+87/87 - 0s - loss: 74.2750 - mse: 137559.3750 - val_loss: 62.6932 - val_mse: 41493.8633
+Epoch 60/500
+87/87 - 0s - loss: 74.1982 - mse: 137478.8438 - val_loss: 61.7142 - val_mse: 42026.1445
+Epoch 61/500
+87/87 - 0s - loss: 74.1346 - mse: 137723.8438 - val_loss: 61.9345 - val_mse: 41589.5000
+Epoch 62/500
+87/87 - 0s - loss: 74.1923 - mse: 137343.0312 - val_loss: 62.4946 - val_mse: 41477.2031
+Epoch 63/500
+87/87 - 0s - loss: 74.1043 - mse: 137420.3750 - val_loss: 62.1272 - val_mse: 41834.6523
+Epoch 64/500
+87/87 - 0s - loss: 74.1438 - mse: 137642.8594 - val_loss: 61.7497 - val_mse: 41773.9062
+Epoch 65/500
+87/87 - 0s - loss: 74.1071 - mse: 137364.2500 - val_loss: 62.1142 - val_mse: 41520.5742
+Epoch 66/500
+87/87 - 0s - loss: 73.9964 - mse: 137449.8125 - val_loss: 61.7677 - val_mse: 42107.6797
+Epoch 67/500
+87/87 - 0s - loss: 73.9440 - mse: 137437.1094 - val_loss: 62.1903 - val_mse: 41512.5820
+Epoch 68/500
+87/87 - 0s - loss: 74.0396 - mse: 137283.0938 - val_loss: 61.9450 - val_mse: 41547.4414
+Epoch 69/500
+87/87 - 0s - loss: 73.9563 - mse: 137153.4062 - val_loss: 61.7994 - val_mse: 42042.8438
+Epoch 70/500
+87/87 - 0s - loss: 73.9515 - mse: 137337.1250 - val_loss: 61.8264 - val_mse: 41832.6406
+Epoch 71/500
+87/87 - 0s - loss: 73.9158 - mse: 137190.8438 - val_loss: 61.7121 - val_mse: 41751.6680
+Epoch 72/500
+87/87 - 0s - loss: 74.0002 - mse: 137205.5156 - val_loss: 61.7478 - val_mse: 41659.8086
+Epoch 73/500
+87/87 - 0s - loss: 73.9276 - mse: 137248.7344 - val_loss: 61.6512 - val_mse: 41547.5391
+Epoch 74/500
+87/87 - 0s - loss: 73.8422 - mse: 137111.7031 - val_loss: 62.2475 - val_mse: 41391.5352
+Epoch 75/500
+87/87 - 0s - loss: 73.8141 - mse: 137114.3281 - val_loss: 62.0885 - val_mse: 41831.9141
+Epoch 76/500
+87/87 - 0s - loss: 73.8084 - mse: 137073.7344 - val_loss: 62.4249 - val_mse: 41397.0977
+Epoch 77/500
+87/87 - 0s - loss: 73.8306 - mse: 137059.2031 - val_loss: 61.9831 - val_mse: 41377.9180
+Epoch 78/500
+87/87 - 0s - loss: 73.6524 - mse: 136823.6406 - val_loss: 61.7236 - val_mse: 41764.8164
+Epoch 79/500
+87/87 - 0s - loss: 73.7282 - mse: 136856.0312 - val_loss: 62.2072 - val_mse: 41841.9102
+Epoch 80/500
+87/87 - 0s - loss: 73.6296 - mse: 136728.5781 - val_loss: 62.0250 - val_mse: 41970.9727
+Epoch 81/500
+87/87 - 0s - loss: 73.5355 - mse: 136819.2812 - val_loss: 61.8539 - val_mse: 41598.8516
+Epoch 82/500
+87/87 - 0s - loss: 73.6521 - mse: 136846.4219 - val_loss: 61.7996 - val_mse: 41754.6836
+Epoch 83/500
+87/87 - 0s - loss: 73.6532 - mse: 136787.2812 - val_loss: 61.8516 - val_mse: 41791.9414
+Epoch 84/500
+87/87 - 0s - loss: 73.5644 - mse: 136787.0156 - val_loss: 61.5591 - val_mse: 41533.9883
+Epoch 85/500
+87/87 - 0s - loss: 73.5065 - mse: 136545.8438 - val_loss: 61.9596 - val_mse: 41726.6367
+Epoch 86/500
+87/87 - 0s - loss: 73.4783 - mse: 136607.6250 - val_loss: 61.8041 - val_mse: 41647.6523
+Epoch 87/500
+87/87 - 0s - loss: 73.4964 - mse: 136685.2969 - val_loss: 61.7083 - val_mse: 41781.9023
+Epoch 88/500
+87/87 - 0s - loss: 73.3732 - mse: 136398.7656 - val_loss: 61.6822 - val_mse: 41533.2773
+Epoch 89/500
+87/87 - 0s - loss: 73.4083 - mse: 136563.8125 - val_loss: 61.6231 - val_mse: 41529.5977
+Epoch 90/500
+87/87 - 0s - loss: 73.3127 - mse: 136564.5469 - val_loss: 62.0778 - val_mse: 42363.0469
+Epoch 91/500
+87/87 - 0s - loss: 73.4374 - mse: 136600.0469 - val_loss: 62.0557 - val_mse: 41225.2227
+Epoch 92/500
+87/87 - 0s - loss: 73.3568 - mse: 136498.3281 - val_loss: 61.5664 - val_mse: 41432.7969
+Epoch 93/500
+87/87 - 0s - loss: 73.3344 - mse: 136529.1250 - val_loss: 61.9914 - val_mse: 41561.0078
+Epoch 94/500
+87/87 - 0s - loss: 73.2357 - mse: 136552.2031 - val_loss: 61.4957 - val_mse: 41765.5430
+Epoch 95/500
+87/87 - 0s - loss: 73.2146 - mse: 136529.6250 - val_loss: 61.8313 - val_mse: 41951.3281
+Epoch 96/500
+87/87 - 0s - loss: 73.1864 - mse: 136463.6250 - val_loss: 61.7938 - val_mse: 41887.4023
+Epoch 97/500
+87/87 - 0s - loss: 73.1913 - mse: 136595.5000 - val_loss: 61.8325 - val_mse: 41261.5703
+Epoch 98/500
+87/87 - 0s - loss: 73.1540 - mse: 136284.7500 - val_loss: 61.3950 - val_mse: 41554.7109
+Epoch 99/500
+87/87 - 0s - loss: 73.0622 - mse: 136565.6406 - val_loss: 61.6825 - val_mse: 41338.9180
+Epoch 100/500
+87/87 - 0s - loss: 73.0843 - mse: 136389.0156 - val_loss: 62.1326 - val_mse: 41256.0000
+Epoch 101/500
+87/87 - 0s - loss: 73.0401 - mse: 136500.8125 - val_loss: 61.8875 - val_mse: 41371.1328
+Epoch 102/500
+87/87 - 0s - loss: 72.9957 - mse: 136147.6562 - val_loss: 61.4932 - val_mse: 41487.5469
+Epoch 103/500
+87/87 - 0s - loss: 73.0049 - mse: 136161.0938 - val_loss: 61.6682 - val_mse: 41648.0859
+Epoch 104/500
+87/87 - 0s - loss: 72.9946 - mse: 136255.5312 - val_loss: 61.6435 - val_mse: 41252.3594
+Epoch 105/500
+87/87 - 0s - loss: 73.0152 - mse: 136142.9219 - val_loss: 61.4840 - val_mse: 41644.6641
+Epoch 106/500
+87/87 - 0s - loss: 72.9555 - mse: 136212.0469 - val_loss: 61.4751 - val_mse: 41704.7383
+Epoch 107/500
+87/87 - 0s - loss: 72.9543 - mse: 136405.4375 - val_loss: 61.7078 - val_mse: 41342.4258
+Epoch 108/500
+87/87 - 0s - loss: 72.8979 - mse: 136144.7500 - val_loss: 62.3350 - val_mse: 41110.9062
+Epoch 109/500
+87/87 - 0s - loss: 72.9948 - mse: 136216.1875 - val_loss: 62.0235 - val_mse: 41133.2227
+Epoch 110/500
+87/87 - 0s - loss: 72.8532 - mse: 136119.7031 - val_loss: 61.7357 - val_mse: 41699.7148
+Epoch 111/500
+87/87 - 0s - loss: 72.8364 - mse: 136170.3125 - val_loss: 61.5253 - val_mse: 41506.4805
+Epoch 112/500
+87/87 - 0s - loss: 72.8926 - mse: 136303.0000 - val_loss: 61.4808 - val_mse: 41271.7031
+Epoch 113/500
+87/87 - 0s - loss: 72.7443 - mse: 136154.7031 - val_loss: 61.9971 - val_mse: 41339.2617
+Epoch 114/500
+87/87 - 0s - loss: 72.7762 - mse: 136045.5469 - val_loss: 61.5853 - val_mse: 41676.7812
+Epoch 115/500
+87/87 - 0s - loss: 72.7178 - mse: 135965.8906 - val_loss: 61.8075 - val_mse: 41107.5781
+Epoch 116/500
+87/87 - 0s - loss: 72.6640 - mse: 135564.3125 - val_loss: 61.2749 - val_mse: 41365.8633
+Epoch 117/500
+87/87 - 0s - loss: 72.6077 - mse: 136032.1875 - val_loss: 61.4513 - val_mse: 41180.5820
+Epoch 118/500
+87/87 - 0s - loss: 72.6192 - mse: 136034.5000 - val_loss: 62.0194 - val_mse: 41192.4922
+Epoch 119/500
+87/87 - 0s - loss: 72.5635 - mse: 135844.7188 - val_loss: 61.6880 - val_mse: 41836.5312
+Epoch 120/500
+87/87 - 0s - loss: 72.5757 - mse: 135939.1094 - val_loss: 61.9063 - val_mse: 41347.5547
+Epoch 121/500
+87/87 - 0s - loss: 72.4845 - mse: 135888.9531 - val_loss: 61.4437 - val_mse: 41057.7188
+Epoch 122/500
+87/87 - 0s - loss: 72.4859 - mse: 135887.8438 - val_loss: 61.9172 - val_mse: 41626.6094
+Epoch 123/500
+87/87 - 0s - loss: 72.4841 - mse: 135552.8281 - val_loss: 61.8010 - val_mse: 41042.9219
+Epoch 124/500
+87/87 - 0s - loss: 72.4029 - mse: 135700.2500 - val_loss: 61.5174 - val_mse: 41292.5234
+Epoch 125/500
+87/87 - 0s - loss: 72.3478 - mse: 135708.4219 - val_loss: 61.8165 - val_mse: 41225.7969
+Epoch 126/500
+87/87 - 0s - loss: 72.3473 - mse: 135709.0000 - val_loss: 61.5991 - val_mse: 41296.1055
+Epoch 127/500
+87/87 - 0s - loss: 72.3056 - mse: 135780.9375 - val_loss: 61.5961 - val_mse: 41538.4688
+Epoch 128/500
+87/87 - 0s - loss: 72.3066 - mse: 135631.9844 - val_loss: 61.6835 - val_mse: 41378.1836
+Epoch 129/500
+87/87 - 0s - loss: 72.2690 - mse: 135674.4375 - val_loss: 61.8687 - val_mse: 41737.6133
+Epoch 130/500
+87/87 - 0s - loss: 72.2559 - mse: 135716.3438 - val_loss: 61.4557 - val_mse: 41003.9141
+Epoch 131/500
+87/87 - 0s - loss: 72.1950 - mse: 135477.2500 - val_loss: 61.1617 - val_mse: 41265.7812
+Epoch 132/500
+87/87 - 0s - loss: 72.1169 - mse: 135677.8438 - val_loss: 61.5254 - val_mse: 41249.2734
+Epoch 133/500
+87/87 - 0s - loss: 72.1072 - mse: 135436.5000 - val_loss: 61.9577 - val_mse: 41685.4258
+Epoch 134/500
+87/87 - 0s - loss: 72.1466 - mse: 135524.1094 - val_loss: 61.7076 - val_mse: 41095.1016
+Epoch 135/500
+87/87 - 0s - loss: 72.1237 - mse: 135516.6719 - val_loss: 61.4585 - val_mse: 41126.3711
+Epoch 136/500
+87/87 - 0s - loss: 72.0621 - mse: 135309.8281 - val_loss: 61.6596 - val_mse: 41138.7539
+Epoch 137/500
+87/87 - 0s - loss: 71.9780 - mse: 135404.3750 - val_loss: 61.4964 - val_mse: 41164.0625
+Epoch 138/500
+87/87 - 0s - loss: 71.9315 - mse: 135301.3750 - val_loss: 61.9249 - val_mse: 41967.6992
+Epoch 139/500
+87/87 - 0s - loss: 71.9026 - mse: 135357.2031 - val_loss: 61.7213 - val_mse: 41550.8281
+Epoch 140/500
+87/87 - 0s - loss: 71.8815 - mse: 134734.4375 - val_loss: 62.1701 - val_mse: 40853.4961
+Epoch 141/500
+87/87 - 0s - loss: 71.9093 - mse: 135534.6562 - val_loss: 61.7502 - val_mse: 40876.3555
+Epoch 142/500
+87/87 - 0s - loss: 71.8386 - mse: 134882.5312 - val_loss: 61.5356 - val_mse: 41024.7070
+Epoch 143/500
+87/87 - 0s - loss: 71.6488 - mse: 134984.5781 - val_loss: 61.4571 - val_mse: 41625.2461
+Epoch 144/500
+87/87 - 0s - loss: 71.8533 - mse: 135087.9375 - val_loss: 61.3412 - val_mse: 41217.6523
+Epoch 145/500
+87/87 - 0s - loss: 71.7576 - mse: 134902.6562 - val_loss: 61.8692 - val_mse: 40770.2344
+Epoch 146/500
+87/87 - 0s - loss: 71.6061 - mse: 135120.8281 - val_loss: 61.1408 - val_mse: 41470.1406
+Epoch 147/500
+87/87 - 0s - loss: 71.6023 - mse: 135099.3906 - val_loss: 62.5511 - val_mse: 40707.7344
+Epoch 148/500
+87/87 - 0s - loss: 71.7413 - mse: 135062.8438 - val_loss: 61.4593 - val_mse: 40847.7188
+Epoch 149/500
+87/87 - 0s - loss: 71.6439 - mse: 134806.6094 - val_loss: 61.1113 - val_mse: 41146.4883
+Epoch 150/500
+87/87 - 0s - loss: 71.6175 - mse: 134876.4688 - val_loss: 61.1808 - val_mse: 41331.2578
+Epoch 151/500
+87/87 - 0s - loss: 71.6232 - mse: 134864.8125 - val_loss: 61.1483 - val_mse: 41078.7227
+Epoch 152/500
+87/87 - 0s - loss: 71.5525 - mse: 134832.8125 - val_loss: 62.8082 - val_mse: 40682.7422
+Epoch 153/500
+87/87 - 0s - loss: 71.4998 - mse: 134786.5312 - val_loss: 62.1383 - val_mse: 40823.2539
+Epoch 154/500
+87/87 - 0s - loss: 71.5524 - mse: 134610.4375 - val_loss: 61.2331 - val_mse: 41601.0234
+Epoch 155/500
+87/87 - 0s - loss: 71.4113 - mse: 134765.6562 - val_loss: 61.4010 - val_mse: 41190.7656
+Epoch 156/500
+87/87 - 0s - loss: 71.4833 - mse: 134576.5156 - val_loss: 61.1834 - val_mse: 41423.9297
+Epoch 157/500
+87/87 - 0s - loss: 71.2490 - mse: 134769.2969 - val_loss: 61.0057 - val_mse: 41436.1445
+Epoch 158/500
+87/87 - 0s - loss: 71.1919 - mse: 134697.6719 - val_loss: 61.2266 - val_mse: 41621.3789
+Epoch 159/500
+87/87 - 0s - loss: 71.3461 - mse: 134725.5000 - val_loss: 61.6804 - val_mse: 41892.9102
+Epoch 160/500
+87/87 - 0s - loss: 71.2085 - mse: 134448.0781 - val_loss: 61.3324 - val_mse: 41316.0273
+Epoch 161/500
+87/87 - 0s - loss: 71.2040 - mse: 134468.3906 - val_loss: 61.1035 - val_mse: 41525.9141
+Epoch 162/500
+87/87 - 0s - loss: 71.2453 - mse: 134431.6719 - val_loss: 61.0589 - val_mse: 41544.6289
+Epoch 163/500
+87/87 - 0s - loss: 71.0239 - mse: 134677.6094 - val_loss: 61.3089 - val_mse: 40803.2891
+Epoch 164/500
+87/87 - 0s - loss: 71.1728 - mse: 134477.1719 - val_loss: 60.8927 - val_mse: 41360.7656
+Epoch 165/500
+87/87 - 0s - loss: 71.1759 - mse: 134523.2500 - val_loss: 61.0822 - val_mse: 41433.2930
+Epoch 166/500
+87/87 - 0s - loss: 70.9908 - mse: 134451.8906 - val_loss: 61.4927 - val_mse: 40987.2500
+Epoch 167/500
+87/87 - 0s - loss: 71.0278 - mse: 134424.0156 - val_loss: 61.9310 - val_mse: 40884.7305
+Epoch 168/500
+87/87 - 0s - loss: 70.9950 - mse: 134271.6719 - val_loss: 61.1314 - val_mse: 40979.8438
+Epoch 169/500
+87/87 - 0s - loss: 71.0317 - mse: 134382.9062 - val_loss: 61.4522 - val_mse: 40981.8867
+Epoch 170/500
+87/87 - 0s - loss: 70.8964 - mse: 134241.6719 - val_loss: 60.8806 - val_mse: 41242.8750
+Epoch 171/500
+87/87 - 0s - loss: 70.9753 - mse: 134425.4219 - val_loss: 60.9890 - val_mse: 41141.5938
+Epoch 172/500
+87/87 - 0s - loss: 70.9877 - mse: 134265.1562 - val_loss: 61.2704 - val_mse: 41464.9492
+Epoch 173/500
+87/87 - 0s - loss: 70.8280 - mse: 134234.6719 - val_loss: 61.3641 - val_mse: 41738.0898
+Epoch 174/500
+87/87 - 0s - loss: 70.9764 - mse: 134157.1562 - val_loss: 61.0444 - val_mse: 40816.1094
+Epoch 175/500
+87/87 - 0s - loss: 70.7761 - mse: 134195.2500 - val_loss: 61.0454 - val_mse: 40974.9336
+Epoch 176/500
+87/87 - 0s - loss: 70.8635 - mse: 134176.5469 - val_loss: 60.9518 - val_mse: 41382.0117
+Epoch 177/500
+87/87 - 0s - loss: 70.9252 - mse: 134349.1719 - val_loss: 61.4579 - val_mse: 41536.9531
+Epoch 178/500
+87/87 - 0s - loss: 70.7566 - mse: 134220.4375 - val_loss: 61.7372 - val_mse: 41418.2031
+Epoch 179/500
+87/87 - 0s - loss: 70.6749 - mse: 134314.6094 - val_loss: 61.9770 - val_mse: 41722.8125
+Epoch 180/500
+87/87 - 0s - loss: 70.8126 - mse: 134221.1406 - val_loss: 61.2071 - val_mse: 41564.6953
+Epoch 181/500
+87/87 - 0s - loss: 70.8080 - mse: 134007.0781 - val_loss: 61.1304 - val_mse: 41122.5547
+Epoch 182/500
+87/87 - 0s - loss: 70.5937 - mse: 134198.7500 - val_loss: 60.9670 - val_mse: 41443.8203
+Epoch 183/500
+87/87 - 0s - loss: 70.7354 - mse: 134020.0625 - val_loss: 61.7613 - val_mse: 40874.4883
+Epoch 184/500
+87/87 - 0s - loss: 70.6578 - mse: 134147.0625 - val_loss: 60.9699 - val_mse: 41090.5820
+Epoch 185/500
+87/87 - 0s - loss: 70.6568 - mse: 133998.8438 - val_loss: 61.0504 - val_mse: 41113.7656
+Epoch 186/500
+87/87 - 0s - loss: 70.7075 - mse: 134065.9219 - val_loss: 61.4055 - val_mse: 41233.5625
+Epoch 187/500
+87/87 - 0s - loss: 70.5919 - mse: 134065.2031 - val_loss: 60.6756 - val_mse: 41143.2422
+Epoch 188/500
+87/87 - 0s - loss: 70.5247 - mse: 134212.0625 - val_loss: 61.4918 - val_mse: 40722.9766
+Epoch 189/500
+87/87 - 0s - loss: 70.6379 - mse: 134121.6875 - val_loss: 62.4597 - val_mse: 42057.7070
+Epoch 190/500
+87/87 - 0s - loss: 70.6063 - mse: 134115.6250 - val_loss: 60.9039 - val_mse: 41274.8125
+Epoch 191/500
+87/87 - 0s - loss: 70.6268 - mse: 134072.9844 - val_loss: 61.0324 - val_mse: 41383.8359
+Epoch 192/500
+87/87 - 0s - loss: 70.5380 - mse: 134159.4844 - val_loss: 61.8816 - val_mse: 40614.9414
+Epoch 193/500
+87/87 - 0s - loss: 70.5459 - mse: 133803.9531 - val_loss: 61.3436 - val_mse: 41480.3828
+Epoch 194/500
+87/87 - 0s - loss: 70.5829 - mse: 133794.5625 - val_loss: 61.4076 - val_mse: 41762.2930
+Epoch 195/500
+87/87 - 0s - loss: 70.4529 - mse: 133928.0938 - val_loss: 61.2635 - val_mse: 41389.5664
+Epoch 196/500
+87/87 - 0s - loss: 70.5095 - mse: 134112.5781 - val_loss: 62.3561 - val_mse: 40578.1328
+Epoch 197/500
+87/87 - 0s - loss: 70.5519 - mse: 133897.3438 - val_loss: 60.6350 - val_mse: 41092.9883
+Epoch 198/500
+87/87 - 0s - loss: 70.5309 - mse: 133823.0469 - val_loss: 61.3973 - val_mse: 40711.8125
+Epoch 199/500
+87/87 - 0s - loss: 70.3266 - mse: 133651.6875 - val_loss: 62.3709 - val_mse: 40497.8750
+Epoch 200/500
+87/87 - 0s - loss: 70.3912 - mse: 133723.1250 - val_loss: 61.1155 - val_mse: 41485.5000
+Epoch 201/500
+87/87 - 0s - loss: 70.4607 - mse: 133941.3750 - val_loss: 60.5266 - val_mse: 41013.9336
+Epoch 202/500
+87/87 - 0s - loss: 70.3546 - mse: 133565.0000 - val_loss: 61.0707 - val_mse: 41586.0078
+Epoch 203/500
+87/87 - 0s - loss: 70.4395 - mse: 133892.0312 - val_loss: 61.0749 - val_mse: 41107.9688
+Epoch 204/500

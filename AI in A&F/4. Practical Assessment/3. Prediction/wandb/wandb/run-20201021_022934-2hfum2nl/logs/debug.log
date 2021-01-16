@@ -1,0 +1,137 @@
+2020-10-21 02:29:34,586 INFO    MainThread:2008 [wandb_init.py:_log_setup():292] Logging user logs to wandb\run-20201021_022934-2hfum2nl\logs\debug.log
+2020-10-21 02:29:34,587 INFO    MainThread:2008 [wandb_init.py:_log_setup():293] Logging internal logs to wandb\run-20201021_022934-2hfum2nl\logs\debug-internal.log
+2020-10-21 02:29:34,587 INFO    MainThread:2008 [wandb_setup.py:_flush():69] setting env: {}
+2020-10-21 02:29:34,587 INFO    MainThread:2008 [wandb_setup.py:_flush():69] setting user settings: {'email': 'delimited@live.com'}
+2020-10-21 02:29:34,587 INFO    MainThread:2008 [wandb_setup.py:_flush():69] multiprocessing start_methods=spawn
+2020-10-21 02:29:39,479 INFO    MainThread:2008 [wandb_run.py:_console_start():1276] atexit reg
+2020-10-21 02:29:39,497 INFO    MainThread:2008 [wandb_run.py:_redirect():1146] redirect: SettingsConsole.WRAP
+2020-10-21 02:29:39,497 INFO    MainThread:2008 [wandb_run.py:_redirect():1177] Wrapping output streams.
+2020-10-21 02:29:39,497 INFO    MainThread:2008 [wandb_run.py:_redirect():1193] Redirects installed.
+2020-10-21 02:30:42,469 INFO    MainThread:2008 [wandb_run.py:_atexit_cleanup():1249] got exitcode: 0
+2020-10-21 02:30:42,471 INFO    MainThread:2008 [wandb_run.py:_restore():1221] restore
+2020-10-21 02:30:42,489 INFO    MainThread:2008 [wandb_run.py:_wait_for_finish():1360] got exit ret: uuid: "7ea6c32cca7247cf98b9543732197b91"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+      media_count: 1
+      other_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 22373
+      total_bytes: 22373
+    }
+  }
+}
+
+2020-10-21 02:30:44,508 INFO    MainThread:2008 [wandb_run.py:_wait_for_finish():1360] got exit ret: uuid: "73fab0af6a9b4e3c911d447bd3960828"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+      other_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 79436
+      total_bytes: 79436
+    }
+  }
+}
+
+2020-10-21 02:30:46,536 INFO    MainThread:2008 [wandb_run.py:_wait_for_finish():1360] got exit ret: uuid: "18320b5e69444f7986072386a0c2b68d"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+      other_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 79436
+      total_bytes: 79436
+    }
+  }
+}
+
+2020-10-21 02:30:48,563 INFO    MainThread:2008 [wandb_run.py:_wait_for_finish():1360] got exit ret: uuid: "6da83d4751ce4a99ad54d245116af477"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+      other_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 79436
+      total_bytes: 79436
+    }
+  }
+}
+
+2020-10-21 02:30:50,595 INFO    MainThread:2008 [wandb_run.py:_wait_for_finish():1360] got exit ret: uuid: "daebea23655b49878f7eda1db07dda3d"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+      other_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 79436
+      total_bytes: 79436
+    }
+  }
+}
+
+2020-10-21 02:30:52,625 INFO    MainThread:2008 [wandb_run.py:_wait_for_finish():1360] got exit ret: uuid: "cd0129e9af40448ba4332d2fe9c9ae81"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+      other_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 79436
+      total_bytes: 79436
+    }
+  }
+}
+
+2020-10-21 02:30:54,650 INFO    MainThread:2008 [wandb_run.py:_wait_for_finish():1360] got exit ret: uuid: "19f7af478b5f4a58931fdc874d6eb4fd"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+      other_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 79436
+      total_bytes: 79436
+    }
+  }
+}
+
+2020-10-21 02:30:56,673 INFO    MainThread:2008 [wandb_run.py:_wait_for_finish():1360] got exit ret: uuid: "52638e737a644cbea66dc784aee3bcc3"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+      other_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 79436
+      total_bytes: 79436
+    }
+  }
+}
+
+2020-10-21 02:30:57,923 INFO    MainThread:2008 [wandb_run.py:_show_summary():1488] rendering summary
+2020-10-21 02:30:57,927 INFO    MainThread:2008 [wandb_run.py:_show_files():1554] logging synced files
+2020-10-21 02:30:57,939 INFO    MainThread:2008 [internal.py:handle_exit():137] Internal process exited

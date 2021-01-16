@@ -1,0 +1,264 @@
+Epoch 1/500
+WARNING:tensorflow:Callbacks method `on_test_batch_begin` is slow compared to the batch time (batch time: 0.0004s vs `on_test_batch_begin` time: 0.0010s). Check your callbacks.
+44/44 - 1s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 2/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 3/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 4/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 5/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 6/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 7/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 8/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 9/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 10/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 11/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 12/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 13/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 14/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 15/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 16/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 17/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 18/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 19/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 20/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 21/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 22/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 23/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 24/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 25/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 26/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 27/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 28/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 29/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 30/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 31/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 32/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 33/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 34/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 35/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 36/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 37/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 38/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 39/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 40/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 41/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 42/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 43/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 44/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 45/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 46/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 47/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 48/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 49/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 50/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 51/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 52/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 53/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 54/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 55/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 56/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 57/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 58/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 59/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 60/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 61/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 62/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 63/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 64/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 65/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 66/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 67/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 68/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 69/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 70/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 71/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 72/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 73/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 74/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 75/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 76/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 77/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 78/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 79/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 80/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 81/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 82/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 83/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 84/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 85/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 86/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 87/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 88/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 89/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 90/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 91/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 92/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 93/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 94/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 95/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 96/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 97/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 98/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 99/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 100/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 101/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 102/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 103/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 104/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 105/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 106/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 107/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 108/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 109/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 110/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 111/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 112/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 113/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 114/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 115/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 116/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 117/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 118/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 119/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 120/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 121/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 122/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 123/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 124/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 125/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 126/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 127/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 128/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 129/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 130/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 131/500
+44/44 - 0s - loss: nan - mse: nan - val_loss: nan - val_mse: nan
+Epoch 132/500

@@ -1,0 +1,23 @@
+2020-10-19 18:00:14,261 INFO    MainThread:7720 [wandb_init.py:_log_setup():292] Logging user logs to wandb\run-20201019_180014-2rr1hi3t\logs\debug.log
+2020-10-19 18:00:14,261 INFO    MainThread:7720 [wandb_init.py:_log_setup():293] Logging internal logs to wandb\run-20201019_180014-2rr1hi3t\logs\debug-internal.log
+2020-10-19 18:00:14,261 INFO    MainThread:7720 [wandb_setup.py:_flush():69] setting env: {}
+2020-10-19 18:00:14,262 INFO    MainThread:7720 [wandb_setup.py:_flush():69] setting user settings: {'email': 'delimited@live.com'}
+2020-10-19 18:00:14,262 INFO    MainThread:7720 [wandb_setup.py:_flush():69] multiprocessing start_methods=spawn
+2020-10-19 18:00:14,262 INFO    MainThread:7720 [wandb_setup.py:_flush():69] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x11BBC0D0>
+2020-10-19 18:00:17,404 WARNING MainThread:7720 [wandb_init.py:init():483] interrupted
+Traceback (most recent call last):
+  File "C:\Users\delim\AppData\Local\Programs\Python\Python37-32\lib\site-packages\wandb\sdk\wandb_init.py", line 463, in init
+    run = wi.init()
+  File "C:\Users\delim\AppData\Local\Programs\Python\Python37-32\lib\site-packages\wandb\sdk\wandb_init.py", line 366, in init
+    ret = backend.interface.communicate_check_version()
+  File "C:\Users\delim\AppData\Local\Programs\Python\Python37-32\lib\site-packages\wandb\interface\interface.py", line 595, in communicate_check_version
+    result = self._communicate(rec)
+  File "C:\Users\delim\AppData\Local\Programs\Python\Python37-32\lib\site-packages\wandb\interface\interface.py", line 437, in _communicate
+    return future.get(timeout)
+  File "C:\Users\delim\AppData\Local\Programs\Python\Python37-32\lib\site-packages\wandb\interface\interface.py", line 58, in get
+    is_set = self._object_ready.wait(timeout)
+  File "C:\Users\delim\AppData\Local\Programs\Python\Python37-32\lib\threading.py", line 552, in wait
+    signaled = self._cond.wait(timeout)
+  File "C:\Users\delim\AppData\Local\Programs\Python\Python37-32\lib\threading.py", line 300, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

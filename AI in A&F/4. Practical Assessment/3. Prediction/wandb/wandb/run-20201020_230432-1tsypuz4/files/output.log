@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "c:\Users\delim\Desktop\AI in A&F Indiv Assignment\Practical Assessment\Prediction\SVR.py", line 21, in <module>
+    y_train = scaler.transform(y_train)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\sklearn\preprocessing\_data.py", line 791, in transform
+    X = self._validate_data(X, reset=False,
+  File "C:\ProgramData\Anaconda3\lib\site-packages\sklearn\base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\sklearn\utils\validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\sklearn\utils\validation.py", line 620, in check_array
+    raise ValueError(
+ValueError: Expected 2D array, got 1D array instead:
+array=[300.  40.  37. ... 110.  81. 181.].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.

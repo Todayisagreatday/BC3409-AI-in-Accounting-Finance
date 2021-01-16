@@ -1,0 +1,41 @@
+2020-10-19 17:53:12,724 INFO    MainThread:3496 [wandb_init.py:_log_setup():292] Logging user logs to wandb\run-20201019_175312-3t4um9ve\logs\debug.log
+2020-10-19 17:53:12,727 INFO    MainThread:3496 [wandb_init.py:_log_setup():293] Logging internal logs to wandb\run-20201019_175312-3t4um9ve\logs\debug-internal.log
+2020-10-19 17:53:12,727 INFO    MainThread:3496 [wandb_setup.py:_flush():69] setting env: {}
+2020-10-19 17:53:12,728 INFO    MainThread:3496 [wandb_setup.py:_flush():69] setting user settings: {'email': 'delimited@live.com'}
+2020-10-19 17:53:12,728 INFO    MainThread:3496 [wandb_setup.py:_flush():69] multiprocessing start_methods=spawn
+2020-10-19 17:53:16,028 INFO    MainThread:3496 [wandb_run.py:_console_start():1276] atexit reg
+2020-10-19 17:53:16,039 INFO    MainThread:3496 [wandb_run.py:_redirect():1146] redirect: SettingsConsole.WRAP
+2020-10-19 17:53:16,040 INFO    MainThread:3496 [wandb_run.py:_redirect():1177] Wrapping output streams.
+2020-10-19 17:53:16,040 INFO    MainThread:3496 [wandb_run.py:_redirect():1193] Redirects installed.
+2020-10-19 17:53:16,254 INFO    MainThread:3496 [wandb_run.py:_atexit_cleanup():1249] got exitcode: 1
+2020-10-19 17:53:16,254 INFO    MainThread:3496 [wandb_run.py:_restore():1221] restore
+2020-10-19 17:53:16,483 INFO    MainThread:3496 [wandb_run.py:_wait_for_finish():1360] got exit ret: uuid: "609d96b9cf024908bc194d2dacfbb8fb"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      total_bytes: 816
+    }
+  }
+}
+
+2020-10-19 17:53:18,511 INFO    MainThread:3496 [wandb_run.py:_wait_for_finish():1360] got exit ret: uuid: "324ae814f24c40d58684b94adbe50c97"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 3689
+      total_bytes: 3689
+    }
+  }
+}
+
+2020-10-19 17:53:19,698 INFO    MainThread:3496 [wandb_run.py:_show_files():1554] logging synced files
+2020-10-19 17:53:19,742 INFO    MainThread:3496 [internal.py:handle_exit():137] Internal process exited

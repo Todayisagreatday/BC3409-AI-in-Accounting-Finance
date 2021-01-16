@@ -1,0 +1,51 @@
+Epoch 1/200
+Traceback (most recent call last):
+  File "c:\Users\delim\Desktop\AI in A&F Indiv Assignment\Practical Assessment\Prediction\NN.py", line 56, in <module>
+    history = model.fit(x_train, y_train,
+  File "C:\Users\delim\AppData\Roaming\Python\Python38\site-packages\wandb\integration\keras\keras.py", line 120, in new_v2
+    return old_v2(*args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\keras\engine\training.py", line 108, in _method_wrapper
+    return method(self, *args, **kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\keras\engine\training.py", line 1098, in fit
+    tmp_logs = train_function(iterator)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\eager\def_function.py", line 780, in __call__
+    result = self._call(*args, **kwds)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\eager\def_function.py", line 823, in _call
+    self._initialize(args, kwds, add_initializers_to=initializers)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\eager\def_function.py", line 696, in _initialize
+    self._stateful_fn._get_concrete_function_internal_garbage_collected(  # pylint: disable=protected-access
+  File "C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\eager\function.py", line 2855, in _get_concrete_function_internal_garbage_collected
+    graph_function, _, _ = self._maybe_define_function(args, kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\eager\function.py", line 3213, in _maybe_define_function
+    graph_function = self._create_graph_function(args, kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\eager\function.py", line 3065, in _create_graph_function
+    func_graph_module.func_graph_from_py_func(
+  File "C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\framework\func_graph.py", line 986, in func_graph_from_py_func
+    func_outputs = python_func(*func_args, **func_kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\eager\def_function.py", line 600, in wrapped_fn
+    return weak_wrapped_fn().__wrapped__(*args, **kwds)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\framework\func_graph.py", line 973, in wrapper
+    raise e.ag_error_metadata.to_exception(e)
+ValueError: in user code:
+
+    C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\keras\engine\training.py:806 train_function  *
+        return step_function(self, iterator)
+    C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\keras\engine\training.py:796 step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\distribute\distribute_lib.py:1211 run
+        return self._extended.call_for_each_replica(fn, args=args, kwargs=kwargs)
+    C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\distribute\distribute_lib.py:2585 call_for_each_replica
+        return self._call_for_each_replica(fn, args, kwargs)
+    C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\distribute\distribute_lib.py:2945 _call_for_each_replica
+        return fn(*args, **kwargs)
+    C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\keras\engine\training.py:789 run_step  **
+        outputs = model.train_step(data)
+    C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\keras\engine\training.py:747 train_step
+        y_pred = self(x, training=True)
+    C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\keras\engine\base_layer.py:975 __call__
+        input_spec.assert_input_compatibility(self.input_spec, inputs,
+    C:\ProgramData\Anaconda3\lib\site-packages\tensorflow\python\keras\engine\input_spec.py:212 assert_input_compatibility
+        raise ValueError(
+
+    ValueError: Input 0 of layer sequential is incompatible with the layer: expected axis -1 of input shape to have value 7 but received input with shape [None, 20]
+

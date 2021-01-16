@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "c:/Users/delim/Desktop/AI in A&F Indiv Assignment/Practical Assessment/Prediction/gradient_boosting.py", line 22, in <module>
+    y_train= y_train.reshape(-1, 1)
+  File "C:\Users\delim\AppData\Local\Programs\Python\Python37-32\lib\site-packages\pandas\core\generic.py", line 5274, in __getattr__
+    return object.__getattribute__(self, name)
+AttributeError: 'Series' object has no attribute 'reshape'

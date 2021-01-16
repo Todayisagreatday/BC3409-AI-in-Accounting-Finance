@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "c:\Users\delim\Desktop\AI in A&F Indiv Assignment\Practical Assessment\Prediction\preprocess_test.py", line 24, in <module>
+    model = ridge_regression()
+  File "C:\ProgramData\Anaconda3\lib\site-packages\sklearn\utils\validation.py", line 73, in inner_f
+    return f(**kwargs)
+TypeError: ridge_regression() missing 3 required positional arguments: 'X', 'y', and 'alpha'

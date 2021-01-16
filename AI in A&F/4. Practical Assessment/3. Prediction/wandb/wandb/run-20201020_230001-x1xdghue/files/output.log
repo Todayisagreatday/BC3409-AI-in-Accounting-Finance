@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "c:\Users\delim\Desktop\AI in A&F Indiv Assignment\Practical Assessment\Prediction\SVR.py", line 24, in <module>
+    Y=sc_Y.fit_transform(Y)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\sklearn\base.py", line 690, in fit_transform
+    return self.fit(X, **fit_params).transform(X)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\sklearn\preprocessing\_data.py", line 667, in fit
+    return self.partial_fit(X, y)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\sklearn\preprocessing\_data.py", line 696, in partial_fit
+    X = self._validate_data(X, accept_sparse=('csr', 'csc'),
+  File "C:\ProgramData\Anaconda3\lib\site-packages\sklearn\base.py", line 420, in _validate_data
+    X = check_array(X, **check_params)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\sklearn\utils\validation.py", line 73, in inner_f
+    return f(**kwargs)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\sklearn\utils\validation.py", line 620, in check_array
+    raise ValueError(
+ValueError: Expected 2D array, got 1D array instead:
+array=[83. 81. 69. ... 58. 56. 65.].
+Reshape your data either using array.reshape(-1, 1) if your data has a single feature or array.reshape(1, -1) if it contains a single sample.
