@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "c:\Users\delim\Desktop\NN_Assignment\wandb_1a.py", line 61, in <module>
-    callbacks=[WandbCallback()])
-  File "C:\Users\delim\Anaconda3\envs\vscode\lib\site-packages\tensorflow\python\keras\engine\training.py", line 538, in compile
-    self._validate_compile(optimizer, metrics, **kwargs)
-  File "C:\Users\delim\Anaconda3\envs\vscode\lib\site-packages\tensorflow\python\keras\engine\training.py", line 2497, in _validate_compile
-    (invalid_kwargs,))
-TypeError: Invalid keyword argument(s) in `compile`: {'callbacks'}
